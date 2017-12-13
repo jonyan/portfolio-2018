@@ -1,0 +1,70 @@
+// @import "vendors/functions";
+// @import "vendors/variables";
+// @import "vendors/mixins";
+
+//Bootstrap Override Variables
+$grid-gutter-width: 2.5vw;
+$font-size: 20px;
+$font-family-sans-serif:
+  -apple-system,
+  system-ui,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Roboto",
+  "Helvetica Neue", Arial, sans-serif;
+
+//Global Variables
+$background-color: white;
+$cool-gray: #F7FAFC;
+$container-vertical-margin-top: 6rem;
+$container-vertical-padding: 6rem;
+$margin: 5vw;
+
+//Nav Variables
+$homepage-vertical-padding: 35px;
+
+//Homepage Variables
+$home-tile-img-height: 400px;
+
+//Bootstrap Override
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Bootstrap Override
+$container-max-widths: (
+  xs: 90vw,
+  sm: 90vw,
+  md: 90vw,
+  lg: 90vw,
+  xl: 90vw
+);
+
+$breakpoints: (
+	'small': (min-width: 375px),
+	'small-image': (max-width: 375px),
+	'medium': (min-width: 720px),
+	'medium-image': (max-width: 720px),
+	'large': (min-width: 1080px),
+	'large-image': (max-width: 1080px),
+	'huge': (min-width: 1200px),
+	'huge-image': (max-width: 1200px)
+);
+
+
+
+// small is 375 - 719 | Two Columns
+// medium is 720 - 1079 | Six Columns
+// large is 1080 - 1199 | 12 Columns
+// huge is > 1200 | 12 Columns
+
+// @media (min-width: 375px)
+// @media (min-width: 720px)
+
+// @media (min-width: 1080px)
+
+// @media (min-width: 1200px)

@@ -1,0 +1,15 @@
+// .nav-padding-top {
+// 	padding-top: $homepage-vertical-padding;
+// }
+
+#nav-container {
+	position: absolute;
+	z-index: 10;
+	top: $homepage-vertical-padding;
+	left: $margin;
+}
+
+// #nav-bar {
+// 	background-color: red;
+// }
+

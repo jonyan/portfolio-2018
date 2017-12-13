@@ -1,0 +1,38 @@
+#homepage-background-image {
+	background-image: url(http://lorempixel.com/1800/1200/);
+	// background: url(http://lorempixel.com/1800/1200/) no-repeat center center fixed, $background-color;
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover; 
+	
+	@include respond-to('huge-image') {
+	    background-image: url(http://lorempixel.com/1200/1200/);
+	}
+
+	@include respond-to('large-image') {
+	    background-image: url(http://lorempixel.com/1080/1200/);
+	}
+
+	@include respond-to('medium-image') {
+	    background-image: url(http://lorempixel.com/720/1200/);
+	}
+
+	@include respond-to('small-image') {
+	    background-image: url(http://lorempixel.com/375/1200/);
+	}
+}
+
+#homepage-background-image-caption {
+	background-color: blue;
+	position: absolute;
+	bottom: 5vh;
+	left: 5vw;
+	z-index: 10;
+}
+
+.home-tile-img-crop {
+	width: 100%;
+	object-fit: cover;
+	height: $home-tile-img-height;
+}

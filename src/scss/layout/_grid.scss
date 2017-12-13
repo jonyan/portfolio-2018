@@ -1,0 +1,65 @@
+@import "abstracts/_variables";
+
+.col {
+	background-color: red;
+}
+
+.viewport-height {
+	height: 100vh;
+}
+
+.viewport-width {
+	width: 100vw;
+}
+
+.container-vertical-padding {
+	padding-top: $container-vertical-padding;
+	padding-bottom: $container-vertical-padding;
+}
+
+.viewport-dimensions {
+	@extend .viewport-height;
+	@extend .viewport-width;
+}
+
+.viewport-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+}
+
+.texture-container {
+	@extend .viewport-width;
+	@extend .container-vertical-padding;
+	background-color: $cool-gray;
+ 
+}
+
+.container-vertical-margin-top {
+	margin-top: $container-vertical-margin-top;
+}
+
+
+.fullbleed-container {
+
+}
+
+.fullbleed-content {
+
+}
+
+.three-col-container {
+
+}
+
+// content with margins
+
+// content fullbleed
+
+// three column content
+
+// two column content
+
+// one column content
+
+// nav bar

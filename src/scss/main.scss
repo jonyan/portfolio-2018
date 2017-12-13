@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/helpers',
+  'base/reset',
+  'base/typography';
+  
+// 3. Components
+
+@import
+  'components/nav-bar',
+  'components/carousel';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/grid',
+  'layout/footer';
+
+// 5. Page stuff
+@import
+  'pages/home';
+
+// @import 'vendors/bootstrap4/bootstrap';
+
+// 5. Page stuff
+
+// @import 'vendors/bootstrap4/scss/bootstrap';
+@import 'vendors/bootstrap4/scss/functions';
+@import 'vendors/bootstrap4/scss/variables';
+@import 'vendors/bootstrap4/scss/mixins';
+@import 'vendors/bootstrap4/scss/reboot';
+@import 'vendors/bootstrap4/scss/images';
+@import 'vendors/bootstrap4/scss/grid';
+@import 'vendors/flickity/flickity';
+
+// Core variables and mixins
+// @import "vendors/bootstrap/variables";
+// @import "vendors/bootstrap/mixins";
+
+// Reset and dependencies
+// @import "vendors/bootstrap/normalize";
+// @import "vendors/bootstrap/print";
+// @import "vendors/bootstrap/glyphicons";
+
+// Core CSS
+// @import "vendors/bootstrap/scaffolding";
+// @import "vendors/bootstrap/type";
+// @import "vendors/bootstrap/code";
+// @import "vendors/bootstrap/grid";
+// @import "vendors/bootstrap/tables";
+// @import "vendors/bootstrap/forms";
+// @import "vendors/bootstrap/buttons";
+
+ 
