@@ -34,5 +34,5 @@
 .home-tile-img-crop {
 	width: 100%;
 	object-fit: cover;
-	height: $home-tile-img-height;
+	height: auto; /*$home-tile-img-height;*/
 }

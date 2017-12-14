@@ -1,14 +1,8 @@
-+++
-title= "Lumi"
-description= "Nothing special, but one post is boring."
-date= "2014-09-02"
-categories= [ "example", "configuration" ]
-tags= [
-    "example",
-    "hugo",
-    "toml"
-]
-+++
+---
+title: "Lumi Mirror"
+description: "A gesture controlled smart mirror."
+date: "2014-09-02"
+---
 
 TOML, YAML, JSON --- Oh my!
 -------------------------

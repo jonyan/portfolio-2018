@@ -45,18 +45,20 @@ http://flickity.metafizzy.co
 /* ---- previous/next buttons ---- */
 
 .flickity-prev-next-button {
+
   z-index: 0;
-  /*background-color: red;*/
+  background-color: red;
   position: absolute;
   top: 50%;
   /*width: 44px;*/
   /*height: 44px;*/
   /*width: 15%;*/
   height: 60vh;
+  width: 30px;
   border: none;
   /*border-radius: 50%;*/
 
-  background: hsla(0, 0%, 100%, 0);
+  // background: hsla(0, 0%, 100%, 0);
   cursor: pointer;
   /* vertically center */
   -webkit-transform: translateY(-50%);
@@ -74,8 +76,8 @@ http://flickity.metafizzy.co
   opacity: 0.6;
 }
 
-.flickity-prev-next-button.previous { left: 0px; }
-.flickity-prev-next-button.next { right: 0px; }
+.flickity-prev-next-button.previous { left: 5vw; }
+.flickity-prev-next-button.next { right: 5vw; }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;

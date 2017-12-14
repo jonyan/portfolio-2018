@@ -3158,7 +3158,11 @@ PrevNextButton.prototype.activate = function() {
   this.bindTap( this.element );
   // click events from keyboard
   this.element.addEventListener( 'click', this );
+  
   // add to DOM
+  // Flickity Override
+  // $('#prev-next-btn-container').append( this.element );
+  // Original Flickity Code
   this.parent.element.appendChild( this.element );
 };
 

@@ -1,14 +1,8 @@
-+++
-title= "Chair Shelf"
-description= "Nothing special, but one post is boring."
-date= "2014-09-02"
-categories= [ "example", "configuration" ]
-tags= [
-    "example",
-    "hugo",
-    "toml"
-]
-+++
+---
+title: "Chair Shelf"
+description: "Designing a more space efficient chair."
+date: "2014-09-02"
+---
 
 TOML, YAML, JSON --- Oh my!
 -------------------------

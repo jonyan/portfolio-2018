@@ -1,14 +1,9 @@
-+++
-title= "ASES"
-description= "Nothing special, but one post is boring."
-date= "2014-09-02"
-categories= [ "example", "configuration" ]
-tags= [
-    "example",
-    "hugo",
-    "toml"
-]
-+++
+---
+title: "ASES Rebrand"
+description: "Rebranding a global collegiate entrepreneurship society."
+date: "2014-09-02"
+thumbnail: ""
+---
 
 TOML, YAML, JSON --- Oh my!
 -------------------------
