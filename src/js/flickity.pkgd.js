@@ -3157,6 +3157,7 @@ PrevNextButton.prototype._create = function() {
 PrevNextButton.prototype.activate = function() {
   this.bindTap( this.element );
   // click events from keyboard
+  // $('.prev-btn').addEventListener( 'click', this );
   this.element.addEventListener( 'click', this );
   
   // add to DOM
@@ -3207,6 +3208,7 @@ function getArrowMovements( shape ) {
 }
 
 PrevNextButton.prototype.onTap = function() {
+  
   if ( !this.isEnabled ) {
     return;
   }

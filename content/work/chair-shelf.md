@@ -1,5 +1,6 @@
 ---
 title: "Chair Shelf"
+type: "Product Design"
 description: "Designing a more space efficient chair."
 date: "2014-09-02"
 ---

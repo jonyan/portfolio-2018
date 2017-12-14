@@ -17,7 +17,49 @@
 
 .z-index-ten {
 	z-index: 10;
-} 
+}
+
+.hover-fade-in {
+	opacity: 0;
+	-webkit-transition: opacity .3s; /* Safari */
+  	transition: opacity .3s;
+
+}
+
+.hover-fade-in:hover {
+	opacity: 1;
+	-webkit-transition: opacity .5s; /* Safari */
+    transition: opacity .5s;
+}
+
+.faded-out {
+	opacity: 0;
+	-webkit-transition: opacity .5s; /* Safari */
+    transition: opacity .5s;
+
+}
+
+.faded-in {
+	opacity: 1;
+	-webkit-transition: opacity .5s; /* Safari */
+    transition: opacity .5s;
+}
+
+.absolute-horizontal-center {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
 .object-fit-cover {
 	width: 100%;
 	height: 100vh;

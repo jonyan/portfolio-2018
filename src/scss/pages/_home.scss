@@ -36,3 +36,10 @@
 	object-fit: cover;
 	height: auto; /*$home-tile-img-height;*/
 }
+
+.home-tile-caption {
+	@extend .absolute-horizontal-center;
+	width: 90%;
+	bottom: 5%;
+	background-color: red;
+}

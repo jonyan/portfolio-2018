@@ -7,18 +7,39 @@
 // }
 
 
+// Custom Button Styling
+
+.prev-btn {
+	background-color: green;
+	width: auto;
+	position: absolute;
+	z-index: 200;
+	width: 20vw;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	top: 0;
+	bottom: 5vh;
+	cursor: pointer;
+	padding-left: 5vw;
+
+}
+
+.prev-btn button {
+	// background-color: blue;
+	margin-left: 5vw;
+
+}
+
 
 
 #prev-next-btn-container {
-	position: absolute;
+	@extend .absolute-horizontal-center;
 	height: 100vh;
 	width: 90vw;
 	top: 0px;
-	left: 0px;
-	right: 0px;
-	margin: 0 auto;
 	z-index: 100;
-	// background-color: red;
 }
 
 // Flickity Styling
@@ -32,15 +53,17 @@
 
 
 .flickity-prev-next-button {
+	@extend .hover-fade-in;
   // opacity: 0;
-  -webkit-transition: opacity .3s; /* Safari */
-  transition: opacity .3s;
+  // -webkit-transition: opacity .3s; /* Safari */
+  // transition: opacity .3s;
 
 }
 
 .flickity-prev-next-button:hover {
-	opacity: 1;
-	-webkit-transition: opacity .5s; /* Safari */
-    transition: opacity .5s;
+	
+	// opacity: 1;
+	// -webkit-transition: opacity .5s; /* Safari */
+    // transition: opacity .5s;
 }
 

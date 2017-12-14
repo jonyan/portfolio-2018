@@ -1,8 +1,10 @@
 ---
 title: "ASES Rebrand"
+type: "Identity"
 description: "Rebranding a global collegiate entrepreneurship society."
 date: "2014-09-02"
-thumbnail: ""
+thumbnail: "ases-home-tile.jpg"
+
 ---
 
 TOML, YAML, JSON --- Oh my!
