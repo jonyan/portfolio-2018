@@ -1,19 +1,45 @@
-h1 {
-	font-size: 3rem;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+html {
+  font-size: calc(.00485*100vw + 14.18182px);
+  	@include media-breakpoint-up(xl) { 
+  		font-size: 20px;
+	}
+}
+
+h1 {
+	font-size: calc(.03273*100vw + 12.72727px);
+	@include media-breakpoint-up(xl) { 
+  		font-size: 60px;
+	}
+
+	line-height: $line-height-lg;
+}
+
+body {
+	line-height: $line-height-base;
+}
+
 
 h3 {
 	font-size: 1.5rem;
 }
 
+b {
+	font-family: 'akkurat-bold';
+}
+
 .bold {
-	font-weight: 900;
+	font-family: 'akkurat-bold';
 }
 
 .regular {
-	font-weight: 400;
+	font-family: 'akkurat-regular';
 }
 
 .light {
-	font-weight: 200;
+	font-family: 'akkurat-light';
 }

@@ -1,19 +1,11 @@
 @import "abstracts/_variables";
 
-// .carousel-control-next-icon {
-// 	background-color: red;
-// 	position: absolute;
-// 	right: $margin;
-// }
-
-
 // Custom Button Styling
 
 .prev-btn {
 	background-color: green;
 	width: auto;
 	position: absolute;
-	z-index: 200;
 	width: 20vw;
 	height: 70vh;
 	display: flex;
@@ -27,7 +19,6 @@
 }
 
 .prev-btn button {
-	// background-color: blue;
 	margin-left: 5vw;
 
 }
@@ -39,7 +30,6 @@
 	height: 100vh;
 	width: 90vw;
 	top: 0px;
-	z-index: 100;
 }
 
 // Flickity Styling
@@ -54,16 +44,6 @@
 
 .flickity-prev-next-button {
 	@extend .hover-fade-in;
-  // opacity: 0;
-  // -webkit-transition: opacity .3s; /* Safari */
-  // transition: opacity .3s;
-
 }
 
-.flickity-prev-next-button:hover {
-	
-	// opacity: 1;
-	// -webkit-transition: opacity .5s; /* Safari */
-    // transition: opacity .5s;
-}
 

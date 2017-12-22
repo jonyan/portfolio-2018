@@ -3,27 +3,14 @@
   <!-- <button class="prev-btn">
     Prev
   </button> -->
-  <div class="carousel js-flickity" data-flickity='{ "wrapAround": true, "autoPlay": true, "pageDots": false, "accessibility": true }'>
-    <div class="carousel-cell" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg)" alt="orange tree">
-      <div class="container" id="homepage-background-image-caption">
-        <div class="row">
-          <div class="col-lg-5 col-md-12">
-            <h3>
-              <span class="regular">Lumi Mirror </span>
-              <br>
-              <span class="light">A gesture controlled smart mirror.</span>
-            </h3>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="carousel-cell" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg)" alt="submerged">
-      <div class="container" id="homepage-background-image-caption">
-        <div class="row">
+  <div class="carousel js-flickity" data-flickity='{ "wrapAround": true, "autoPlay": true, "autoPlay": 4000, "pageDots": false, "accessibility": true }'>
+    <div class="carousel-cell" id="carousel-background-img-one" alt="ASES Rebrand">
+      <div class="container white-text-color" id="homepage-caption-container">
+        <div class="row" id="homepage-caption-row">
           <div class="col-lg-5 col-md-12">
             <h3>
-              <span class="regular">ASES</span>
+              <span class="regular">ASES Rebrand</span>
               <br>
               <span class="light">A rebrand for a global entrepreneurship society.</span>
             </h3>
@@ -32,9 +19,23 @@
       </div>
     </div>
 
-    <div class="carousel-cell" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg)" alt="look-out">
-      <div class="container" id="homepage-background-image-caption">
-        <div class="row">
+    <div class="carousel-cell" id="carousel-background-img-two" alt="Lumi Mirror">
+      <div class="container white-text-color" id="homepage-caption-container">
+        <div class="row" id="homepage-caption-row">
+          <div class="col-lg-5 col-md-12">
+            <h3>
+              <span class="regular">Lumi Mirror</span>
+              <br>
+              <span class="light">A gesture controlled smart mirror.</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-cell" id="carousel-background-img-three" alt="Firsthand Delivery">
+      <div class="container white-text-color" id="homepage-caption-container">
+        <div class="row" id="homepage-caption-row">
           <div class="col-lg-5 col-md-12">
             <h3>
               <span class="regular">Firsthand Delivery</span>
@@ -51,10 +52,10 @@
 
   <div class="container container-vertical-padding">
     <div class="row">
-      <div class="col-lg-5 col-md-5 col-sm-12">
+      <div class="col-lg-5 col-md-12 col-sm-12">
         <h1>Selected Works</h1>
       </div>
-      <div class="col-lg-6 offset-lg-1  col-md-6 offset-md-1 col-sm-12">
+      <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
         <div>
           <p>
             Hi there, I’m Jonathan Yan, a San Francisco based Product Designer. With a background starting companies, my strength lies in solving  design problems with business constraints and goals in mind. I’ve had the priviledge of working at companies like Yahoo and Tank Design and most recently I co-founded a startup called Firsthand (YC W17).
@@ -68,51 +69,51 @@
   </div>
 
   <div class="texture-container">
-    <div class="container section-divider-top background">
+    <div class="container section-divider-top">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 img-group-margin-btm">
+        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
           <a href="#" class="home-tile">
             <div class="home-tile-caption faded-out">
               <p class="no-margin-bottom text-align-center">Identity</p>
               <p class="no-margin-bottom text-align-center">ASES Rebrand</p>
             </div>
-            <img class="home-tile-img-crop" src="/images/{{ index .Site.Data.images.hash "ases-home-tile.jpg" }}">
+            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
           </a>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 img-group-margin-btm">
+        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
           <a href="#" class="home-tile">
             <div class="home-tile-caption faded-out">
               <p class="no-margin-bottom text-align-center">Interactive</p>
               <p class="no-margin-bottom text-align-center">Lumi Mirror</p>
             </div>
-            <img class="home-tile-img-crop" src="/images/{{ index .Site.Data.images.hash "ases-home-tile.jpg" }}">
+            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
           </div>
         </a>
-        <div class="col-lg-6 col-md-6 col-sm-12 img-group-margin-btm">
+        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
           <a href="#" class="home-tile">
             <div class="home-tile-caption faded-out">
               <p class="no-margin-bottom text-align-center">Interactive</p>
               <p class="no-margin-bottom text-align-center">Firsthand Delivery</p>
             </div>
-            <img class="home-tile-img-crop" src="/images/{{ index .Site.Data.images.hash "ases-home-tile.jpg" }}">
+            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
           </a>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 img-group-margin-btm">
+        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
           <a href="#" class="home-tile">
             <div class="home-tile-caption faded-out">
               <p class="no-margin-bottom text-align-center">Product Design</p>
               <p class="no-margin-bottom text-align-center">Chair Shelf</p>
             </div>
-            <img class="home-tile-img-crop" src="/images/{{ index .Site.Data.images.hash "ases-home-tile.jpg" }}">
+            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
           </a>
         </div>
-        <div class="col-lg-6 col-md-6 offset-lg-6 offset-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-12 offset-lg-6 col-sm-12">
           <a href="#" class="home-tile">
             <div class="home-tile-caption faded-out">
               <p class="no-margin-bottom text-align-center">Identity</p>
               <p class="no-margin-bottom text-align-center">Whym</p>
             </div>
-            <img class="home-tile-img-crop" src="/images/{{ index .Site.Data.images.hash "ases-home-tile.jpg" }}">
+            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
           </a>
         </div>
       </div>
@@ -121,10 +122,10 @@
 
   <div class="container container-vertical-padding">
     <div class="row">
-      <div class="col-lg-5 col-md-5 col-sm-12">
-        <h1>Everywhere @jonjyan</h1>
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <h1>Everywhere <span class="secondary-text-color">@jonjyan</span></h1>
       </div>
-      <div class="col-lg-6 offset-lg-1  col-md-6 offset-md-1 col-sm-12">
+      <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
         <p>
           Want to chat? I’m always down to meet interesting people and take on exciting projects. Feel free to say hello!
         </p>
@@ -133,16 +134,16 @@
         <div class="row">
           <div class="col-lg-6 col-sm-6">
             <ul>
-              <dt>Contact</dt>
-              <li>jonjyan@gmail.com</li>
+              <li>Contact</li>
+              <li class="secondary-text-color">jonjyan@gmail.com</li>
             </ul>
           </div>
           <div class="col-lg-6 col-sm-6">
             <ul>
-              <dt>Follow</dt>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>Dribbble</li>
+              <li>Follow</li>
+              <li class="secondary-text-color">Twitter</li>
+              <li class="secondary-text-color">Instagram</li>
+              <li class="secondary-text-color">Dribbble</li>
             </ul>
           </div>
         </div>

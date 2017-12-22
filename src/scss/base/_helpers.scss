@@ -1,4 +1,5 @@
 @import "abstracts/_variables";
+@import "vendors/bootstrap4/scss/mixins";
 
 .background-image {
 	background-repeat: no-repeat;
@@ -11,12 +12,20 @@
 	background-attachment: center;
 }
 
-.z-index-zero {
+.z-index-level-zero {
 	z-index: 0;
 }
 
-.z-index-ten {
-	z-index: 10;
+.z-index-level-one {
+	z-index: 1;
+}
+
+.z-index-level-two {
+	z-index: 2;
+}
+
+.z-index-level-three {
+	z-index: 3;
 }
 
 .hover-fade-in {
@@ -56,8 +65,16 @@
 	margin-bottom: 0;
 }
 
+.text-align-left {
+	text-align: left;
+}
+
 .text-align-center {
 	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
 }
 
 .object-fit-cover {
@@ -72,25 +89,67 @@
 
 .img-group-margin-btm {
 	margin-bottom: $grid-gutter-width;
+	
+	@include media-breakpoint-up(m) { 
+		margin-bottom: 2rem;
+	}
+}
+
+.position-relative {
+	position: relative;
+}
+
+.secondary-text-color {
+	color: $secondary-body-color;
+}
+
+.white-text-color {
+	color: #FFFFFF;
 }
 
 .background {
 	background-color: $background-color;
 
-	@include respond-to('small') {
-	    background-color: red;
+	@include media-breakpoint-up(xs) { 
+		background-color: yellow;
 	}
 
-	@include respond-to('medium') {
-	    background-color: orange;
+	@include media-breakpoint-up(sm) { 
+		background-color: red;
 	}
 
-	@include respond-to('large') {
-	    background-color: green;
+	@include media-breakpoint-up(md) { 
+		background-color: orange;
 	}
 
-	@include respond-to('huge') {
-	    background-color: blue;
+	@include media-breakpoint-up(lg) { 
+		background-color: green;
+	}
+
+	@include media-breakpoint-up(xl) { 
+		background-color: blue;
+	}
+
+	@include media-breakpoint-up(xxl) { 
+		background-color: purple;
 	}
 }
+
+// .background {
+// 	@include respond-to('small') {
+// 	    background-color: red;
+// 	}
+
+// 	@include respond-to('medium') {
+// 	    background-color: orange;
+// 	}
+
+// 	@include respond-to('large') {
+// 	    background-color: green;
+// 	}
+
+// 	@include respond-to('huge') {
+// 	    background-color: blue;
+// 	}
+// }
 

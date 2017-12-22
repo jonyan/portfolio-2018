@@ -3,10 +3,9 @@
 // }
 
 #nav-container {
-	position: absolute;
-	z-index: 10;
+	@extend .absolute-horizontal-center;
 	top: $homepage-vertical-padding;
-	left: $margin;
+    position: fixed;
 }
 
 .hamburger-menu {
@@ -18,3 +17,103 @@
 // 	background-color: red;
 // }
 
+
+// Slide Down Nav Menu
+
+.top-nav-container {
+    margin-top: $homepage-vertical-padding;
+	background-color: blue;
+	// margin-top: 10vh;
+    height: 87.5%;
+}
+
+.nav-top-buffer {
+    margin-top: 5vh;
+}
+
+#say-hello-container {
+    align-self: flex-end;
+    // position: absolute;
+    // bottom: 0px;
+}
+
+#nav-second-row {
+    margin-top: 80px;
+}
+
+#nav-third-row {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 0; /* 100% Full-height */
+    width: 100vw; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0; /* Stay at the top */
+    // left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable vertical scroll */
+    // transition: height 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+
+/* The navigation menu links */
+.sidenav a {
+    // padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    // font-size: 25px;
+    color: #818181;
+    display: block;
+    // transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    // position: absolute;
+    // top: 0;
+    // right: 25px;
+    // font-size: 36px;
+    // margin-left: 50px;
+}
+
+
+#row-container {
+    margin-top: 35px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+#row-one {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    width: 100%;
+}
+
+#row-two {
+    background-color: green;
+    width: 100%;
+}
+
+#row-three {
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}

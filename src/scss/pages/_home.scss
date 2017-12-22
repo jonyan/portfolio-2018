@@ -1,35 +1,188 @@
-#homepage-background-image {
-	background-image: url(http://lorempixel.com/1800/1200/);
-	// background: url(http://lorempixel.com/1800/1200/) no-repeat center center fixed, $background-color;
-	// -webkit-background-size: cover;
-	// -moz-background-size: cover;
-	// -o-background-size: cover;
-	// background-size: cover; 
+// #homepage-background-image {
+// 	background-image: url(http://lorempixel.com/1800/1200/);
+// 	// background: url(http://lorempixel.com/1800/1200/) no-repeat center center fixed, $background-color;
+// 	// -webkit-background-size: cover;
+// 	// -moz-background-size: cover;
+// 	// -o-background-size: cover;
+// 	// background-size: cover; 
 	
-	@include respond-to('huge-image') {
-	    background-image: url(http://lorempixel.com/1200/1200/);
+// 	@include respond-to('huge-image') {
+// 	    background-image: url(http://lorempixel.com/1200/1200/);
+// 	}
+
+// 	@include respond-to('large-image') {
+// 	    background-image: url(http://lorempixel.com/1080/1200/);
+// 	}
+
+// 	@include respond-to('medium-image') {
+// 	    background-image: url(http://lorempixel.com/720/1200/);
+// 	}
+
+// 	@include respond-to('small-image') {
+// 	    background-image: url(http://lorempixel.com/375/1200/);
+// 	}
+// }
+
+.carousel-cell {
+	@include media-breakpoint-down(md) { 
+		height: 64.0625vw;
 	}
 
-	@include respond-to('large-image') {
-	    background-image: url(http://lorempixel.com/1080/1200/);
+	@include media-breakpoint-down(xs) { 
+		height: 115.625vw;
 	}
 
-	@include respond-to('medium-image') {
-	    background-image: url(http://lorempixel.com/720/1200/);
+	// @media only screen and (max-width: 600px) {
+	// 	height: 115.625vw;
+	// }
+	background-position: center;
+}
+
+#carousel-background-img-one {
+	@include media-breakpoint-down(xxl) { 
+		background-image: url("/images/ases-cover-xxl.jpg");
 	}
 
-	@include respond-to('small-image') {
-	    background-image: url(http://lorempixel.com/375/1200/);
+	@include media-breakpoint-down(xl) { 
+		background-image: url("/images/ases-cover-xl.jpg");
+	}
+
+	@include media-breakpoint-down(lg) { 
+		// background-image: url("/images/ases-cover-lg.jpg");
+	}
+
+	@include media-breakpoint-down(md) { 
+		background-image: url("/images/ases-cover-md.jpg");
+	}
+
+	@include media-breakpoint-down(sm) { 
+		background-image: url("/images/ases-cover-sm.jpg");
+	}
+
+	@include media-breakpoint-down(xs) { 
+		background-image: url("/images/ases-cover-lg.jpg");
 	}
 }
 
-#homepage-background-image-caption {
-	background-color: blue;
+#carousel-background-img-two {
+	@include media-breakpoint-down(xxl) { 
+		background-image: url("/images/lumi-cover-xxl.jpg");
+	}
+
+	@include media-breakpoint-down(xl) { 
+		background-image: url("/images/lumi-cover-xl.jpg");
+	}
+
+	@include media-breakpoint-down(lg) { 
+		// background-image: url("/images/lumi-cover-lg.jpg");
+	}
+
+	@include media-breakpoint-down(md) { 
+		background-image: url("/images/lumi-cover-md.jpg");
+	}
+
+	@include media-breakpoint-down(sm) { 
+		background-image: url("/images/lumi-cover-sm.jpg");
+	}
+
+	@include media-breakpoint-down(xs) { 
+		background-image: url("/images/lumi-cover-lg.jpg");
+	}
+}
+
+#carousel-background-img-three {
+	@include media-breakpoint-down(xxl) { 
+		background-image: url("/images/firsthand-cover-xxl-1.jpg");
+	}
+
+	@include media-breakpoint-down(xl) { 
+		background-image: url("/images/firsthand-cover-xl.jpg");
+	}
+
+	@include media-breakpoint-down(lg) { 
+		// background-image: url("/images/lumi-cover-lg.jpg");
+	}
+
+	@include media-breakpoint-down(md) { 
+		background-image: url("/images/firsthand-cover-md.jpg");
+		background-position: left;
+
+	}
+
+	@include media-breakpoint-down(sm) { 
+		background-image: url("/images/firsthand-cover-sm.jpg");
+	}
+
+	@include media-breakpoint-down(xs) { 
+		background-image: url("/images/firsthand-cover-lg.jpg");
+	}
+}
+
+#homepage-caption-container {
+	background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.50) 99%);
 	position: absolute;
-	bottom: 5vh;
-	left: 5vw;
-	z-index: 10;
+	bottom: 0;
+	padding-bottom: 5vh;
+	@extend .absolute-horizontal-center;
+	max-width: 100vw;
 }
+
+// $container-max-widths: (
+//   xs: 90vw,
+//   sm: 85vw,
+//   md: 75vw,
+//   lg: 90vw,
+//   xl: 90vw,
+//   xxl: 1400px
+// );
+
+// // For each breakpoint, define the maximum width of the container in a media query
+// @mixin make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
+//   @each $breakpoint, $container-max-width in $max-widths {
+//     @include media-breakpoint-up($breakpoint, $breakpoints) {
+//       max-width: $container-max-width;
+//     }
+//   }
+// }
+
+
+// @mixin make-row-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
+// 	@each $breakpoint, $container-max-width in $max-widths {
+// 		@include media-breakpoint-up($breakpoint, $breakpoints) {
+// 			max-width: 
+// 		}
+// 	}
+// }
+
+#homepage-caption-row {
+	margin-left: auto;
+	margin-right: auto;
+	@include make-container-max-widths($container-max-widths, $grid-breakpoints);
+}
+// 	@include media-breakpoint-up(xs) { 
+// 		max-width: 
+// 	}
+
+// 	@include media-breakpoint-up(sm) { 
+// 		background-color: red;
+// 	}
+
+// 	@include media-breakpoint-up(md) { 
+// 		background-color: orange;
+// 	}
+
+// 	@include media-breakpoint-up(lg) { 
+// 		background-color: green;
+// 	}
+
+// 	@include media-breakpoint-up(xl) { 
+// 		background-color: blue;
+// 	}
+
+// 	@include media-breakpoint-up(xxl) { 
+// 		background-color: purple;
+// 	}
+// }
 
 .home-tile-img-crop {
 	width: 100%;
