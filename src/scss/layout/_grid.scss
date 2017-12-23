@@ -22,12 +22,6 @@
 	@extend .viewport-width;
 }
 
-.viewport-container {
-	width: 100vw;
-	height: 100vh;
-	background-color: red;
-}
-
 .texture-container {
 	@extend .viewport-width;
 	@extend .container-vertical-padding;
