@@ -22,6 +22,7 @@ $background-color: white;
 $cool-gray: #F7FAFC;
 $body-color: #333333;
 $secondary-body-color: #A6A6A6;
+$tertiary-body-color: #7F7F7F;
 
 $container-vertical-margin-top: 6rem;
 $container-vertical-padding: 6rem;
@@ -40,7 +41,7 @@ $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
-  lg: 933px,
+  lg: 900px,
   xl: 1200px,
   xxl: 1600px
 );
@@ -49,9 +50,9 @@ $grid-breakpoints: (
 $container-max-widths: (
   xs: 90vw,
   sm: 85vw,
-  md: 75vw,
-  lg: 90vw,
-  xl: 90vw,
+  md: 85vw,
+  lg: 95vw,
+  xl: 95vw,
   xxl: 1400px
 );
 
