@@ -13,40 +13,45 @@ $( document ).ready(function() {
 
 	// Project Selector Background Image Code
 
-	$('.project-background-image').mouseover(
+	$('.project-link').mouseover(
 		function() {
-			var project = this.getAttribute('name');
-			var bgImage = "#home-canvas-two-bg-image-" + project;
-
+			var canvasName = $(this).parents(".canvas").attr('id');
+			var project = $(this).attr('name');
+			var bgImagePrefix = $(this).parent().attr('name');
+			var bgImage = "#" + bgImagePrefix + project;
 			$(bgImage).css("opacity", 1);
-			$(this).find('div').children().each(function() {
-				console.log(this.value);
+			$('.' + canvasName + '-project-name').css("color", "white");
+			$('.' + canvasName + '-project-type').css("color", "white");
+			$("#" + canvasName + "-header").css("color", "white");
+			$("#" + canvasName + "-subheader").css("color", "white");
+
+			$(this).siblings().each(function() {
+				$(this).find('div').css("opacity", ".3");
 			});
-			$('#canvas-two-header').css("color", "white");
-			$('#canvas-two-subheader').css("color", "white");
-			$('#project-container').css("color", "white");
-			// var imageURL = fetchImageURL(project);
-			// $('#home-canvas-two-bg-image').css("background-image", "url(" + imageURL + ")");
-			// $('#home-canvas-two-bg-image').css("opacity", "1");
-				// "background-position", "center",
-				// "background-size", "cover"
-			// );
+
+			
 		}
 	);
 
-	$('.project-background-image').mouseout(
+	$('.project-link').mouseout(
 		function() {
-			var project = this.getAttribute('name');
-			var bgImage = "#home-canvas-two-bg-image-" + project;
+			var canvasName = $(this).parents(".canvas").attr('id');
+			var project = $(this).attr('name');
+			var bgImagePrefix = $(this).parent().attr('name');
+			var bgImage = "#" + bgImagePrefix + project;
 			$(bgImage).css("opacity", 0);
-			$('#canvas-two-header').css("color", "#333333");
-			$('#canvas-two-subheader').css("color", "#B3B3B3");
-			// $('#home-canvas-two-bg-image').css("opacity", "0");
-			// $('#home-canvas-two-bg-image').css("background-image", "none");
+			$('.' + canvasName + '-project-name').css("color", "#333333");
+			$('.' + canvasName + '-project-type').css("color", "#B3B3B3");
+			$('#' + canvasName + '-header').css("color", "#333333");
+			$('#' + canvasName + '-subheader').css("color", "#B3B3B3");
 
+			$(this).siblings().each(function() {
+				$(this).find('div').css("opacity", "1");
+			});
 		}
 	);
 
+	// Not using this code
 	function fetchImageURL(projectName) {
 		var url = "../images/";
 		if ($(window).width() < gridBreakpoints['sm']) {

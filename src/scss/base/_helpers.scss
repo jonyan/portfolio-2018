@@ -85,6 +85,12 @@
 	text-align: center;
 }
 
+.text-align-left-md {
+	@include media-breakpoint-down(md) {
+		text-align: left;
+	}
+}
+
 .text-align-center-md {
 	@include media-breakpoint-down(md) {
 		text-align: center;
@@ -131,11 +137,11 @@
 }
 
 .secondary-text-color {
-	color: $secondary-body-color;
+	color: $secondary-text-color;
 }
 
 .tertiary-text-color {
-	color: $tertiary-body-color;
+	color: $tertiary-text-color;
 }
 
 .white-text-color {

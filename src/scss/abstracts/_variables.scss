@@ -21,8 +21,8 @@ $line-height-base: 1.75;
 $background-color: white;
 $cool-gray: #F7FAFC;
 $body-color: #333333;
-$secondary-body-color: #B3B3B3;
-$tertiary-body-color: #7F7F7F;
+$secondary-text-color: #B3B3B3;
+$tertiary-text-color: #7F7F7F;
 
 $container-vertical-margin-top: 6rem;
 $container-vertical-padding: 6rem;
@@ -51,8 +51,8 @@ $container-max-widths: (
   xs: 90vw,
   sm: 85vw,
   md: 85vw,
-  lg: 95vw,
-  xl: 95vw,
+  lg: 90vw,
+  xl: 90vw,
   xxl: 1400px
 );
 

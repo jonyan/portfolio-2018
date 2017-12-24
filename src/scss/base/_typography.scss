@@ -11,8 +11,8 @@ html {
 }
 
 h1 {
-	// font-size: calc(.03273*100vw + 12.72727px);
-	font-size: calc(.02667*100vw + 28px);
+	// font-size: calc(.02667*100vw + 28px);
+	font-size: calc(.0325*100vw + 21px);
 	@include media-breakpoint-up(xl) { 
   		font-size: 60px;
 	}
@@ -42,7 +42,7 @@ b {
 .subtitle {
 	text-transform: uppercase;
 	@extend .bold;
-	color: $secondary-body-color;
+	color: $secondary-text-color;
 	letter-spacing: .06667em;
 	font-size: calc(.00556*100vw + 8.33333px);
 	@include media-breakpoint-up(xl) { 
