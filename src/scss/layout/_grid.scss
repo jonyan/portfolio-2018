@@ -1,9 +1,5 @@
 @import "abstracts/_variables";
 
-.col {
-	// background-color: red;
-}
-
 .viewport-height {
 	height: 100vh;
 }
@@ -20,17 +16,6 @@
 .viewport-dimensions {
 	@extend .viewport-height;
 	@extend .viewport-width;
-}
-
-.texture-container {
-	@extend .viewport-width;
-	@extend .container-vertical-padding;
-	background-color: $cool-gray;
- 
-}
-
-.container-vertical-margin-top {
-	margin-top: $container-vertical-margin-top;
 }
 
 

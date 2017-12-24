@@ -37,7 +37,8 @@
 
 }
 
-#home-canvas-one-header {
+.homepage-header {
+	text-align: right;
 	display: block;
 	@include media-breakpoint-down(md) {
 		display: inline-flex;
@@ -156,14 +157,88 @@
   }
 }
 
-// @keyframes loading {
-// 	0% {
-// 		// height: 0px;
-// 	}
-// 	100% {
-// 		// height: 100px;
-// 	}
-//     // from {left: 50%; width: 0;z-index:100;}
-//     // 33.3333% {left: 0; width: 100%;z-index: 10;}
-//     // to {left: 0; width: 100%;}
+#home-canvas-two {
+	background-color: $background-color;
+	// display: block;
+	// position: relative;
+	// width: 100vw;
+	// height: 100vh;
+	// overflow: hidden;
+
+
+}
+
+.home-canvas-two-bg-image {
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+#home-canvas-two-bg-image-lumi {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../images/lumi-cover-xxl.jpg') center / cover no-repeat;
+	// background-image: url('../images/lumi-cover-xxl.jpg');
+	opacity: 0;
+	transition: opacity 1s;
+	// background-color: black;
+}
+
+#home-canvas-two-bg-image-ases {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../images/ases-cover-xxl.jpg') center / cover no-repeat;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#home-canvas-two-bg-image-firsthand {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../images/firsthand-cover-xxl.jpg') center / cover no-repeat;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+// #home-canvas-two::before {
+	// content: ' ';
+// 	// display: block;
+// 	position: absolute;
+// 	top: 0;
+// 	right: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	width: 100%;
+// 	height: 100%;
+// 	background-image: url('../images/lumi-cover-xxl.jpg');
+// 	background-size: cover;
+// 	background-position: center;
+	
+// 	z-index: -1;
+// 	opacity: 1;
 // }
+
+#canvas-two-header {
+	margin-bottom: 50px;
+}
+
+#project-container div {
+	margin-bottom: 40px;
+}
+
+
+#home-canvas-three {
+	background-color: $cool-gray
+}

@@ -4,19 +4,26 @@
 }
 
 html {
-  font-size: calc(.00485*100vw + 14.18182px);
+  	font-size: calc(.00485*100vw + 14.18182px);
   	@include media-breakpoint-up(xl) { 
   		font-size: 20px;
 	}
 }
 
 h1 {
-	font-size: calc(.03273*100vw + 12.72727px);
+	// font-size: calc(.03273*100vw + 12.72727px);
+	font-size: calc(.02667*100vw + 28px);
 	@include media-breakpoint-up(xl) { 
   		font-size: 60px;
 	}
-
 	line-height: $line-height-lg;
+}
+
+h2 {
+	font-size: calc(.01333*100vw + 24px);
+	@include media-breakpoint-up(xl) { 
+  		font-size: 40px;
+	}
 }
 
 body {
@@ -30,6 +37,18 @@ h3 {
 
 b {
 	font-family: 'akkurat-bold';
+}
+
+.subtitle {
+	text-transform: uppercase;
+	@extend .bold;
+	color: $secondary-body-color;
+	letter-spacing: .06667em;
+	font-size: calc(.00556*100vw + 8.33333px);
+	@include media-breakpoint-up(xl) { 
+  		font-size: 15px;
+	}
+
 }
 
 .bold {

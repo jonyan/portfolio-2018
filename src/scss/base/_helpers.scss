@@ -85,6 +85,12 @@
 	text-align: center;
 }
 
+.text-align-center-md {
+	@include media-breakpoint-down(md) {
+		text-align: center;
+	}
+}
+
 .text-align-right {
 	text-align: right;
 }

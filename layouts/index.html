@@ -1,9 +1,11 @@
 {{ define "main" }}
+
+  <!-- Canvas 1 -->
   <div class="viewport-dimensions display-flex align-item-center" id="home-canvas-one">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-12" id="home-canvas-one-header-container">
-          <h1 id="home-canvas-one-header">
+          <h1 class="homepage-header">
             <span class="white-text-color">Jonathan</span>
             &nbsp;<span class="tertiary-text-color">Yan</span>
           </h1>
@@ -27,71 +29,67 @@
     </div>
   </div>
   <div class="landscape-hidden" id="home-scroll-animation"></div>
-  <div class="container container-vertical-padding">
-    <div class="row">
-      <div class="col-lg-5 col-md-12 col-sm-12">
-        <h1>Selected Works</h1>
-      </div>
-      <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
-        <div>
-          <p>
-            Hi there, I’m Jonathan Yan, a San Francisco based Product Designer. With a background starting companies, my strength lies in solving  design problems with business constraints and goals in mind. I’ve had the priviledge of working at companies like Yahoo and Tank Design and most recently I co-founded a startup called Firsthand (YC W17).
-          </p>
-          <p>
-            Below is some of my work.
-          </p>
+
+  <!-- Canvas 2 -->
+  <div class="viewport-dimensions display-flex align-item-center" id="home-canvas-two">
+    <div class="home-canvas-two-bg-image" id="home-canvas-two-bg-image-lumi"></div>
+    <div class="home-canvas-two-bg-image" id="home-canvas-two-bg-image-ases"></div>
+    <div class="home-canvas-two-bg-image" id="home-canvas-two-bg-image-firsthand"></div>
+    <div class="container container-vertical-padding">
+      <div class="row">
+        <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+          <h1 class="homepage-header" id="canvas-two-header">
+            <span>Selected</span>
+            &nbsp;<span id="canvas-two-subheader" class="secondary-text-color">Works</span>
+          </h1>
+        </div>
+        <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container">
+          <a name="lumi" id="lumi-project" class="project-background-image" href="">
+            <div>
+              <span class="subtitle">INTERACTIVE</span>
+              <h2>Lumi Mirror</h2>
+            </div>
+          </a>
+          <a name="ases" class="project-background-image" href="">
+            <div>
+              <span class="subtitle">IDENTITY</span>
+              <h2>ASES Rebrand</h2>
+            </div>
+          </a>
+          <a name="firsthand" class="project-background-image" href="">
+            <div>
+              <span class="subtitle">INTERACTIVE</span>
+              <h2>Firsthand Delivery</h2>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="texture-container">
-    <div class="container section-divider-top">
+  <!-- Canvas 3 -->
+  <div class="viewport-dimensions display-flex align-item-center" id="home-canvas-three">
+    <div class="container container-vertical-padding">
       <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
-          <a href="#" class="home-tile">
-            <div class="home-tile-caption faded-out">
-              <p class="no-margin-bottom text-align-center">Identity</p>
-              <p class="no-margin-bottom text-align-center">ASES Rebrand</p>
-            </div>
-            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
-          </a>
+        <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+          <h1 class="homepage-header" id="canvas-two-header">
+            <span>Side</span>
+            &nbsp;<span class="secondary-text-color">Projects</span>
+          </h1>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
-          <a href="#" class="home-tile">
-            <div class="home-tile-caption faded-out">
-              <p class="no-margin-bottom text-align-center">Interactive</p>
-              <p class="no-margin-bottom text-align-center">Lumi Mirror</p>
-            </div>
-            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
+        <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container">
+          <div>
+            <subtitle>INTERACTIVE</subtitle>
+            <h2>Lumi Mirror</h2>
           </div>
-        </a>
-        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
-          <a href="#" class="home-tile">
-            <div class="home-tile-caption faded-out">
-              <p class="no-margin-bottom text-align-center">Interactive</p>
-              <p class="no-margin-bottom text-align-center">Firsthand Delivery</p>
-            </div>
-            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
-          </a>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 img-group-margin-btm">
-          <a href="#" class="home-tile">
-            <div class="home-tile-caption faded-out">
-              <p class="no-margin-bottom text-align-center">Product Design</p>
-              <p class="no-margin-bottom text-align-center">Chair Shelf</p>
-            </div>
-            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
-          </a>
-        </div>
-        <div class="col-lg-6 col-md-12 offset-lg-6 col-sm-12">
-          <a href="#" class="home-tile">
-            <div class="home-tile-caption faded-out">
-              <p class="no-margin-bottom text-align-center">Identity</p>
-              <p class="no-margin-bottom text-align-center">Whym</p>
-            </div>
-            <img class="home-tile-img-crop" src="/images/ases-home-tile.jpg">
-          </a>
+          <div>
+            <subtitle>IDENTITY</subtitle>
+            <h2>ASES Rebrand</h2>
+          </div>
+          <div>
+            <subtitle>INTERACTIVE</subtitle>
+            <h2>Firsthand Delivery</h2>
+          </div>
         </div>
       </div>
     </div>
