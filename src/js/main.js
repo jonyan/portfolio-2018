@@ -10,6 +10,18 @@ const gridBreakpoints = {
 $( document ).ready(function() {
 	console.log( "ready!" );
 
+	// Scroll Code
+
+	$("#homepage").ready(function() {
+		console.log("homepage");
+		$(function() {
+          $.scrollify({
+            section : ".canvas",
+            interstitialSection: ".partial-canvas",
+            scrollbars: false
+          });
+        });
+	});
 
 	// Project Selector Background Image Code
 
@@ -113,3 +125,23 @@ $( document ).ready(function() {
 
 
 });
+
+
+
+(function ($) {
+  var ready = $.fn.ready;
+  $.fn.ready = function (fn) {
+    if (this.context === undefined) {
+      // The $().ready(fn) case.
+      ready(fn);
+    } else if (this.selector) {
+      ready($.proxy(function(){
+        $(this.selector, this.context).each(fn);
+      }, this));
+    } else {
+      ready($.proxy(function(){
+        $(this).each(fn);
+      }, this));
+    }
+  }
+})(jQuery);

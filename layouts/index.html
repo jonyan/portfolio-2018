@@ -1,150 +1,143 @@
 {{ define "main" }}
-
-  <!-- Canvas 1 -->
-  <div class="viewport-dimensions display-flex align-item-center" id="home-canvas-one">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-12" id="home-canvas-one-header-container">
-          <h1 class="homepage-header">
-            <span class="white-text-color">Jonathan</span>
-            &nbsp;<span class="tertiary-text-color">Yan</span>
-          </h1>
-        </div>
-        <div class="col-lg-7 offset-lg-1 col-md-12">
-          <p class="home-canvas-one-text">
-            Hi there, I’m Jonathan. I’m a digital designer from Los Angeles currently living in San Francisco. In the past, I’ve had the priviledge of working at places like Yahoo and Tank Design. Most recently I started a company called Firsthand (YC W17).
-          </p>
-          <p class="home-canvas-one-text">
-            Below is some of my work.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container" id="scroll-container">
-    <div class="row">
-      <div class="col offset flex-end">
-        <p class="landscape-hidden" id="scroll-text">Scroll Down</p>
-      </div>
-    </div>
-  </div>
-  <div class="landscape-hidden" id="home-scroll-animation"></div>
-
-  <!-- Canvas 2 -->
-  <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-two">
-    <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-lumi"></div>
-    <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-ases"></div>
-    <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-firsthand"></div>
-    <div class="container container-vertical-padding">
-      <div class="row">
-        <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
-          <h1 class="homepage-header" id="home-canvas-two-header">
-            <span>Selected</span>
-            &nbsp;<span id="home-canvas-two-subheader" class="secondary-text-color">Works</span>
-          </h1>
-        </div>
-        <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-two-bg-image-">
-          <a name="lumi" id="lumi-project" class="project-link" href="">
-            <div style="margin-top:-20px;">
-              <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
-              <h2 class="home-canvas-two-project-name">Lumi Mirror</h2>
-            </div>
-          </a>
-          <a name="ases" class="project-link" href="">
-            <div>
-              <span class="subtitle home-canvas-two-project-type">IDENTITY</span>
-              <h2 class="home-canvas-two-project-name">ASES Rebrand</h2>
-            </div>
-          </a>
-          <a name="firsthand" class="project-link" href="">
-            <div>
-              <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
-              <h2 class="home-canvas-two-project-name">Firsthand Delivery</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Canvas 3 -->
-  <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-three">
-    <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-lumi"></div>
-    <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-ases"></div>
-    <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-firsthand"></div>
-    <div class="container container-vertical-padding">
-      <div class="row">
-        <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
-          <h1 class="homepage-header" id="home-canvas-three-header">
-            <span>Side</span>
-            &nbsp;<span id="home-canvas-three-subheader" class="secondary-text-color">Projects</span>
-          </h1>
-        </div>
-        <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-three-bg-image-">
-          <a name="lumi" id="lumi-project" class="project-link" href="">
-            <div style="margin-top:-20px;">
-              <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
-              <h2 class="home-canvas-three-project-name">Lumi Mirror</h2>
-            </div>
-          </a>
-          <a name="ases" class="project-link" href="">
-            <div>
-              <span class="subtitle home-canvas-three-project-type">IDENTITY</span>
-              <h2 class="home-canvas-three-project-name">ASES Rebrand</h2>
-            </div>
-          </a>
-          <a name="firsthand" class="project-link" href="">
-            <div>
-              <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
-              <h2 class="home-canvas-three-project-name">Firsthand Delivery</h2>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container container-vertical-padding">
-    <div class="row">
-      <!-- <div class="col-lg-5 col-md-12 col-sm-12text-align-center-md">
-        <h1 class="homepage-header">
-          <span>Everywhere</span>
-          &nbsp;<span class="secondary-text-color">@jonjyan</span>
-        </h1>
-      </div> -->
-      <div class="col-xl-4 offset-xl-0 col-lg-4 offset-lg-1 col-md-12 col-sm-12 text-align-right">
-        <h1 class="text-align-left-md">
-          <span>Everywhere</span>
-          &nbsp;<span class="secondary-text-color">@jonjyan</span>
-        </h1>
-      </div>
-      <div class="col-xl-6 offset-xl-2 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
-        <p>
-          Want to chat? I’m always down to meet interesting people and take on exciting projects. Feel free to say hello!
-        </p>
-        <br>
-        <br>
+  <div id="homepage">
+    <!-- Canvas 1 -->
+    <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-one">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-sm-6">
-            <ul>
-              <li>Contact</li>
-              <li><a class="footer-link" href="">jonjyan@gmail.com</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-12" id="home-canvas-one-header-container">
+            <h1 class="homepage-header">
+              <span class="white-text-color">Jonathan</span>
+              &nbsp;<span class="tertiary-text-color">Yan</span>
+            </h1>
           </div>
-          <div class="col-lg-6 col-sm-6">
-            <ul>
-              <li>Follow</li>
-              <li><a class="footer-link"href="">Twitter</a></li>
-              <li><a class="footer-link" href="">Instagram</a></li>
-              <li><a class="footer-link" href="">Dribbble</a></li>
-            </ul>
+          <div class="col-lg-7 offset-lg-1 col-md-12">
+            <p class="home-canvas-one-text">
+              Hi there, I’m Jonathan. I’m a digital designer from Los Angeles currently living in San Francisco. In the past, I’ve had the priviledge of working at places like Yahoo and Tank Design. Most recently I started a company called Firsthand (YC W17).
+            </p>
+            <p class="home-canvas-one-text">
+              Below is some of my work.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="scroll-container">
+        <div class="row">
+          <div class="col offset flex-end">
+            <p class="landscape-hidden" id="scroll-text">Scroll Down</p>
+          </div>
+        </div>
+      </div>
+      <div class="landscape-hidden" id="home-scroll-animation"></div>
+    </div>
+      
+    <!-- Canvas 2 -->
+    <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-two">
+      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-lumi"></div>
+      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-ases"></div>
+      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-firsthand"></div>
+      <div class="container container-vertical-padding">
+        <div class="row">
+          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+            <h1 class="homepage-header" id="home-canvas-two-header">
+              <span>Selected</span>
+              &nbsp;<span id="home-canvas-two-subheader" class="secondary-text-color">Works</span>
+            </h1>
+          </div>
+          <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-two-bg-image-">
+            <a name="lumi" id="lumi-project" class="project-link" href="">
+              <div style="margin-top:-20px;">
+                <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
+                <h2 class="home-canvas-two-project-name">Lumi Mirror</h2>
+              </div>
+            </a>
+            <a name="ases" class="project-link" href="">
+              <div>
+                <span class="subtitle home-canvas-two-project-type">IDENTITY</span>
+                <h2 class="home-canvas-two-project-name">ASES Rebrand</h2>
+              </div>
+            </a>
+            <a name="firsthand" class="project-link" href="">
+              <div>
+                <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
+                <h2 class="home-canvas-two-project-name">Firsthand Delivery</h2>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    
+    <!-- Canvas 3 -->
+    <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-three">
+      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-lumi"></div>
+      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-ases"></div>
+      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-firsthand"></div>
+      <div class="container container-vertical-padding">
+        <div class="row">
+          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+            <h1 class="homepage-header" id="home-canvas-three-header">
+              <span>Side</span>
+              &nbsp;<span id="home-canvas-three-subheader" class="secondary-text-color">Projects</span>
+            </h1>
+          </div>
+          <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-three-bg-image-">
+            <a name="lumi" id="lumi-project" class="project-link" href="">
+              <div style="margin-top:-20px;">
+                <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
+                <h2 class="home-canvas-three-project-name">Lumi Mirror</h2>
+              </div>
+            </a>
+            <a name="ases" class="project-link" href="">
+              <div>
+                <span class="subtitle home-canvas-three-project-type">IDENTITY</span>
+                <h2 class="home-canvas-three-project-name">ASES Rebrand</h2>
+              </div>
+            </a>
+            <a name="firsthand" class="project-link" href="">
+              <div>
+                <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
+                <h2 class="home-canvas-three-project-name">Firsthand Delivery</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Canvas Four -->
+    <div class="container container-vertical-padding partial-canvas" id="home-canvas-four">
+      <div class="row">
+        <div class="col-xl-4 offset-xl-0 col-lg-4 offset-lg-1 col-md-12 col-sm-12 text-align-right">
+          <h1 class="text-align-left-md">
+            <span>Everywhere</span>
+            &nbsp;<span class="secondary-text-color">@jonjyan</span>
+          </h1>
+        </div>
+        <div class="col-xl-6 offset-xl-2 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
+          <p>
+            Want to chat? I’m always down to meet interesting people and take on exciting projects. Feel free to say hello!
+          </p>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <ul>
+                <li>Contact</li>
+                <li><a class="footer-link" href="">jonjyan@gmail.com</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <ul>
+                <li>Follow</li>
+                <li><a class="footer-link"href="">Twitter</a></li>
+                <li><a class="footer-link" href="">Instagram</a></li>
+                <li><a class="footer-link" href="">Dribbble</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
   </div>
 
 
