@@ -1,3 +1,5 @@
+
+
 .home-canvas-one-text {
 	font-size: calc(0.0175*100vw + 9px);
 	line-height: 1.75em;
@@ -202,11 +204,6 @@
     url('../images/firsthand-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
-}
-
-
-#home-canvas-two-header {
-	margin-bottom: 50px;
 }
 
 #home-canvas-two-project-name {
