@@ -24,6 +24,14 @@
 	background-attachment: center;
 }
 
+.img-shadow {
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+}
+
+.img-shadow-dark {
+	box-shadow: 0 2px 30px 0 rgba(0,0,0,0.20);
+}
+
 .z-index-level-zero {
 	z-index: 0;
 }
@@ -77,6 +85,16 @@
 	margin-bottom: 0;
 }
 
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+.no-horizontal-margins {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+}
+
 .text-align-left {
 	text-align: left;
 }
@@ -97,6 +115,12 @@
 	}
 }
 
+.text-align-right-lg {
+	@include media-breakpoint-up(lg) {
+		text-align: right;
+	}
+}
+
 .text-align-right {
 	text-align: right;
 }
@@ -111,9 +135,49 @@
 	display: flex;
 }
 
-.flex-end {
+.flex-start-md {
+	@include media-breakpoint-up(md) {
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+.justify-content-flex-center-lg {
+	@include media-breakpoint-up(lg) {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+.justify-content-flex-end-lg {
+	@include media-breakpoint-up(lg) {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.justify-content-flex-end {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.justify-content-center-md {
+	@include media-breakpoint-down(md) {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.col-reverse-md {
+	@include media-breakpoint-down(md) {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+.display-inline-flex {
+	display: inline-flex;
 }
 
 .img-group-margin-btm {
@@ -122,6 +186,10 @@
 	@include media-breakpoint-up(m) { 
 		margin-bottom: 2rem;
 	}
+}
+
+.video-container {
+	overflow: hidden;
 }
 
 .align-item-center {
@@ -146,6 +214,29 @@
 
 .white-text-color {
 	color: #FFFFFF;
+}
+
+.white-background-color {
+	background-color: #FFFFFF;
+}
+
+.cool-gray-background-color {
+	background-color: $cool-gray;
+}
+
+.cool-gray-texture {
+	@extend .cool-gray-background-color;
+	width: 97vw;
+	height: 97vh;
+	margin: auto;
+	@include media-breakpoint-down(md) {
+		width: 95vw;
+		height: 95vh;
+	}
+}
+
+.primary-background-color {
+	background-color: $body-color;
 }
 
 .background {

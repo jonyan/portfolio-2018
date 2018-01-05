@@ -1,4 +1,6 @@
 {{ define "main" }}
+  <!-- <script>document.body.className += ' fade-out';</script> -->
+  <script>$('#body-container').addClass(' fade-out');</script>
   <div id="homepage">
     <!-- Canvas 1 -->
     <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-one">
@@ -10,8 +12,8 @@
               &nbsp;<span class="tertiary-text-color black-background-text">Yan</span>
             </h1>
           </div>
-          <div class="col-lg-7 offset-lg-1 col-md-12">
-            <p class="home-canvas-one-text black-background-text">
+          <div class="col-lg-7 offset-lg-1 col-md-12 ">
+            <p class="home-canvas-one-text black-background-text ">
               Hi there, I’m Jonathan. I’m a digital designer from Los Angeles currently living in San Francisco. In the past, I’ve had the priviledge of working at places like Yahoo and Tank Design. Most recently I started a company called Firsthand (YC W17).
             </p>
             <p class="home-canvas-one-text black-background-text">
@@ -22,8 +24,8 @@
       </div>
       <div class="container" id="scroll-container">
         <div class="row">
-          <div class="col offset flex-end">
-            <p class="landscape-hidden" id="scroll-text">Scroll Down</p>
+          <div class="col offset justify-content-flex-end">
+            <p class="landscape-hidden black-background-text" id="scroll-text">Scroll Down</p>
           </div>
         </div>
       </div>
@@ -31,35 +33,35 @@
     </div>
       
     <!-- Canvas 2 -->
-    <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-two">
-      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-lumi"></div>
-      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-ases"></div>
-      <div class="home-canvas-bg-image" id="home-canvas-two-bg-image-firsthand"></div>
+    <div class="viewport-dimensions display-flex align-item-center canvas background-image" id="home-canvas-two">
+      <div class="bg-image" id="home-canvas-two-bg-image-lumi"></div>
+      <div class="bg-image" id="home-canvas-two-bg-image-ases"></div>
+      <div class="bg-image" id="home-canvas-two-bg-image-firsthand"></div>
       <div class="container container-vertical-padding">
         <div class="row">
-          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="100" data-aos-duration="800">
             <h1 class="homepage-header" id="home-canvas-two-header" style="margin-bottom: 50px;">
               <span>Selected</span>
               &nbsp;<span id="home-canvas-two-subheader" class="secondary-text-color">Works</span>
             </h1>
           </div>
-          <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-two-bg-image-">
-            <a name="lumi" class="project-link" href="">
-              <div style="margin-top:-20px;">
-                <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
-                <h2 class="home-canvas-two-project-name">Lumi Mirror</h2>
+          <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-two-bg-image-">
+            <a name="lumi" class="project-link" href="/work/lumi">
+              <div style="margin-top:-20px;" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="400" data-aos-duration="600">
+                <span class="subtitle home-canvas-two-project-header">INTERACTIVE</span>
+                <h3 class="home-canvas-two-project-name">Lumi Mirror</h3>
               </div>
             </a>
-            <a name="ases" class="project-link" href="">
-              <div>
-                <span class="subtitle home-canvas-two-project-type">IDENTITY</span>
-                <h2 class="home-canvas-two-project-name">ASES Rebrand</h2>
+            <a name="ases" class="project-link" href="/work/ases">
+              <div data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="450" data-aos-duration="1000">
+                <span class="subtitle home-canvas-two-project-header">IDENTITY</span>
+                <h3 class="home-canvas-two-project-name">ASES Rebrand</h3>
               </div>
             </a>
-            <a name="firsthand" class="project-link" href="">
-              <div>
-                <span class="subtitle home-canvas-two-project-type">INTERACTIVE</span>
-                <h2 class="home-canvas-two-project-name">Firsthand Delivery</h2>
+            <a name="firsthand" class="project-link" href="/work/firsthand">
+              <div data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="500" data-aos-duration="1500">
+                <span class="subtitle home-canvas-two-project-header">INTERACTIVE</span>
+                <h3 class="home-canvas-two-project-name">Firsthand Delivery</h3>
               </div>
             </a>
           </div>
@@ -68,35 +70,35 @@
     </div>
 
     <!-- Canvas 3 -->
-    <div class="viewport-dimensions display-flex align-item-center canvas" id="home-canvas-three">
-      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-lumi"></div>
-      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-ases"></div>
-      <div class="home-canvas-bg-image" id="home-canvas-three-bg-image-firsthand"></div>
-      <div class="container container-vertical-padding">
+    <div class="viewport-dimensions display-flex align-item-center canvas background-image" id="home-canvas-three">
+      <div class="bg-image" id="home-canvas-three-bg-image-lumi"></div>
+      <div class="bg-image" id="home-canvas-three-bg-image-ases"></div>
+      <div class="bg-image" id="home-canvas-three-bg-image-firsthand"></div>
+      <div class="container container-vertical-padding" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="100" data-aos-duration="600">
         <div class="row">
-          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md">
+          <div class="col-lg-3 offset-lg-2 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="200" data-aos-duration="800">
             <h1 class="homepage-header" id="home-canvas-three-header" style="margin-bottom: 50px;">
               <span>Side</span>
               &nbsp;<span id="home-canvas-three-subheader" class="secondary-text-color">Projects</span>
             </h1>
           </div>
-          <div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-three-bg-image-">
+          <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-6 offset-md-3 col-sm-8 offset-sm-2 text-align-center-md" id="project-container" name="home-canvas-three-bg-image-">
             <a name="lumi" id="lumi-project" class="project-link" href="">
-              <div style="margin-top:-20px;">
-                <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
-                <h2 class="home-canvas-three-project-name">Lumi Mirror</h2>
+              <div style="margin-top:-20px;" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="400" data-aos-duration="600">
+                <span class="subtitle home-canvas-three-project-header">INTERACTIVE</span>
+                <h3 class="home-canvas-three-project-name">Lumi Mirror</h3>
               </div>
             </a>
             <a name="ases" class="project-link" href="">
-              <div>
-                <span class="subtitle home-canvas-three-project-type">IDENTITY</span>
-                <h2 class="home-canvas-three-project-name">ASES Rebrand</h2>
+              <div  data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="450" data-aos-duration="1000">
+                <span class="subtitle home-canvas-three-project-header">IDENTITY</span>
+                <h3 class="home-canvas-three-project-name">ASES Rebrand</h3>
               </div>
             </a>
             <a name="firsthand" class="project-link" href="">
-              <div>
-                <span class="subtitle home-canvas-three-project-type">INTERACTIVE</span>
-                <h2 class="home-canvas-three-project-name">Firsthand Delivery</h2>
+              <div data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="500" data-aos-duration="1500">
+                <span class="subtitle home-canvas-three-project-header">INTERACTIVE</span>
+                <h3 class="home-canvas-three-project-name">Firsthand Delivery</h3>
               </div>
             </a>
           </div>
@@ -107,13 +109,13 @@
     <!-- Canvas Four -->
     <div class="container container-vertical-padding partial-canvas" id="home-canvas-four">
       <div class="row">
-        <div class="col-xl-4 offset-xl-0 col-lg-4 offset-lg-1 col-md-12 col-sm-12 text-align-right">
+        <div class="col-xl-4 offset-xl-0 col-lg-4 offset-lg-1 col-md-12 col-sm-12 text-align-right" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
           <h1 class="text-align-left-md">
             <span>Everywhere</span>
             &nbsp;<span class="secondary-text-color">@jonjyan</span>
           </h1>
         </div>
-        <div class="col-xl-6 offset-xl-2 col-lg-6 offset-lg-1 col-md-12 col-sm-12">
+        <div class="col-xl-6 offset-xl-2 col-lg-6 offset-lg-1 col-md-12 col-sm-12" data-aos="fade" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="250" data-aos-duration="1000">
           <p>
             Want to chat? I’m always down to meet interesting people and take on exciting projects. Feel free to say hello!
           </p>

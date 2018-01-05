@@ -1,4 +1,21 @@
 {{ define "main" }}
-<h1>This is Single Page Template</h1>
- {{.Content}}
+	<!-- <script>document.body.className += ' fade-out';</script> -->
+	<script>$('#body-container').addClass(' fade-out');</script>
+	<div class="container">
+		<div class="row">
+			<div class="col case-study-header">
+				<h4 class="secondary-text-color">{{.Type}}</h4>
+				<h2>{{.Title}}</h2>
+			</div>
+		</div>
+	</div>
+	<div class="viewport-dimensions">
+		<div class="case-study-bg-image" id="{{ .File.TranslationBaseName }}-case-study-bg-image"></div>
+	</div>
+	{{.Content}}
+	{{ partial "footer.html" . }}
+
+<!-- 	<h1>{{.NextInSection.Title}}</h1>
+ -->
+
 {{end}}

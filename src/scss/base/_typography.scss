@@ -6,33 +6,46 @@
 html {
   	font-size: calc(.00485*100vw + 14.18182px);
   	@include media-breakpoint-up(xl) { 
-  		font-size: 20px;
+  		font-size: $font-size;
 	}
 }
 
+
+// 300px: 31px - 1200px: 60px
 h1 {
-	// font-size: calc(.02667*100vw + 28px);
 	font-size: calc(.0325*100vw + 21px);
 	@include media-breakpoint-up(xl) { 
-  		font-size: 60px;
+  		font-size: 3rem;
 	}
-	line-height: $line-height-lg;
+	line-height: 1.25em;
 }
 
+// 300px: 31px - 1200px: 50px
+
 h2 {
+	font-size: calc(.0211*100vw + 24.6667px);
+	@include media-breakpoint-up(xl) { 
+  		font-size: 2.5rem;
+	}
+	line-height: 1.5em;
+}
+
+// 300px: 24px - 1200px: 40px
+h3 {
 	font-size: calc(.01333*100vw + 24px);
 	@include media-breakpoint-up(xl) { 
-  		font-size: 40px;
+  		font-size: 2rem;
 	}
+	line-height: 1.5em;
+}
+
+h4 {
+	font-size: 1.5rem;
+	line-height: 1.75em;
 }
 
 body {
 	line-height: $line-height-base;
-}
-
-
-h3 {
-	font-size: 1.5rem;
 }
 
 b {

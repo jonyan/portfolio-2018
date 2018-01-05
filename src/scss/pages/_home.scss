@@ -70,10 +70,10 @@
 	right: 0;
 	margin: auto;
 	bottom: 0;
-	-webkit-animation: fadeIn 3.75s linear;
-	-moz-animation: fadeIn 3.75s linear;
-	-o-animation: fadeIn 3.75s linear;
-	animation: fadeIn 3.75s linear;	
+	-webkit-animation: fadeScrollIn 3s linear;
+	-moz-animation: fadeScrollIn 3s linear;
+	-o-animation: fadeScrollIn 3s linear;
+	animation: fadeScrollIn 3s linear;	
 }
 
 #home-scroll-animation::before {
@@ -95,7 +95,7 @@
 
 }	
 
-@keyframes fadeIn {
+@keyframes fadeScrollIn {
 	0% {
 		opacity: 0;
 	}
@@ -164,7 +164,7 @@
 	background-color: $background-color;
 }
 
-.home-canvas-bg-image {
+.bg-image {
 	position: absolute;
 	background-size: cover;
 	background-position: center;
@@ -229,6 +229,7 @@
 }
 
 #home-canvas-three-bg-image-lumi {
+	// TODO: Add responsive background image code
 	background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5), 

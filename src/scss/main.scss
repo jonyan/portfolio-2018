@@ -9,6 +9,7 @@
 // 2. Base stuff
 @import
   'base/base',
+  'base/animations',
   'base/fonts',
   'base/helpers',
   'base/reset',
@@ -18,6 +19,7 @@
 
 @import
   'components/nav-bar',
+  'components/footer',
   'components/carousel';
 
 // 4. Layout-related sections
@@ -28,7 +30,8 @@
 
 // 5. Page stuff
 @import
-  'pages/home';
+  'pages/home',
+  'pages/case-study';
 
 // @import 'vendors/bootstrap4/bootstrap';
 
@@ -43,6 +46,8 @@
 @import 'vendors/bootstrap4/scss/images';
 @import 'vendors/bootstrap4/scss/grid';
 @import 'vendors/flickity/flickity';
+@import 'vendors/animate';
+@import 'vendors/aos/aos';
 
 // Core variables and mixins
 // @import "vendors/bootstrap/variables";

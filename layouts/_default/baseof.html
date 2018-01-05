@@ -1,10 +1,16 @@
 {{ partial "header.html" . }}
 <body>
+	<h1 id="loader" class="z-index-level-three">Loading...</h1>
+    <script>
+	    AOS.init();
+	</script>
+	<div id="body-container">
 		{{ partial "nav.html" . }}
 		{{ block "main" . }}
 
 		{{end}}
 
-	{{ partial "scripts.includes.html" . }}
+		{{ partial "scripts.includes.html" . }}
+	</div>
 </body>
 </html>

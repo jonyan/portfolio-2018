@@ -8,6 +8,10 @@
 	width: 100vw;
 }
 
+.container-vertical-padding-top {
+	padding-top: $container-vertical-padding;
+}
+
 .container-vertical-padding {
 	padding-top: $container-vertical-padding;
 	padding-bottom: $container-vertical-padding;

@@ -1,7 +1,7 @@
 <!-- <div id="nav-container" class="container nav-padding-top">
 	<div class="row">
 		<div class="col"><b>Jonathan Yan</b></div>
-		<div class="col flex-end">=</div>
+		<div class="col justify-content-flex-end">=</div>
 	</div>
 </div> -->
 
@@ -11,7 +11,7 @@
   <!-- <div id="row-container">
     <div id="row-one">
       <div><a href="#"><b>Jonathan Yan</b></a></div>
-      <div class="flex-end hamburger-menu">
+      <div class="justify-content-flex-end hamburger-menu">
         <svg width="21px" height="14px" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <desc>Created with Sketch.</desc>
             <defs></defs>
@@ -43,40 +43,28 @@
       </div>
     </div>
   </div> -->
-	<div class="container top-nav-container position-relative">
-		<div class="row" style="background-color: red;">
-			<div class="col"><a href="#"><b class="white-text-color">Jonathan Yan</b></a></div>
-			<div class="col flex-end hamburger-menu">
-				<svg width="21px" height="14px" viewBox="0 0 21 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				    <defs></defs>
-				    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-				        <g id="Desktop-HD-Copy-11" transform="translate(-1330.000000, -93.000000)" fill="#FFFFFF">
-				            <g id="Group-14" transform="translate(1330.000000, 93.000000)">
-				                <rect id="Rectangle" transform="translate(14.250000, 2.000000) rotate(-90.000000) translate(-14.250000, -2.000000) " x="13" y="-4" width="2.5" height="12"></rect>
-				                <rect id="Rectangle" transform="translate(10.250000, 12.000000) rotate(-270.000000) translate(-10.250000, -12.000000) " x="9" y="2" width="2.5" height="20"></rect>
-				            </g>
-				        </g>
-				    </g>
-				</svg>
-			</div>
+	<div class="container" id="nav-container">
+		<div class="row">
+			<div class="col"><a href="#"><span class="body-color regular">Jonathan Yan</span></a></div>
+			
 		</div>
-    <div class="row" id="nav-second-row" style="background-color:blue;">
-      <div class="col-lg-2" style="background-color: red;">
-    		<h1><a href="#">Work</a></h1>
-    		<h1><a href="#">About</a></h1>
-    		<h1><a href="#">Contact</a></h1>
+    <div class="row" id="nav-second-row">
+      <div class="col-lg-3">
+    		<h1 class="nav-link-margin-bottom"><a href="#">Work</a></h1>
+    		<h1 class="nav-link-margin-bottom"><a href="#">About</a></h1>
+    		<h1 class="nav-link-margin-bottom"><a href="#">Contact</a></h1>
       </div>
-      <div class="col-lg-1 offset-lg-9" style="background-color: green;">
+      <div class="col-lg-1 offset-lg-9">
       </div>
     </div>
-    <div class="row" id="nav-third-row"  style="background-color: yellow;">
+    <div class="row" id="nav-third-row">
       <div class="col-lg-3">
-        <p>Connect</p>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
-        <a href="#">Dribbble</a>
+        <p style="margin-bottom: 0px;">Connect</p>
+        <a class="secondary-text-color" href="#">Instagram</a>
+        <a class="secondary-text-color" href="#">Twitter</a>
+        <a class="secondary-text-color" href="#">Dribbble</a>
       </div>
-    	<div class="col-lg-3 offset-lg-6 text-align-right" id="say-hello-container" style="background-color: purple;">
+    	<div class="col-lg-3 offset-lg-6 text-align-right" id="say-hello-container">
     		<p>Say hello at</p>
     		<h3>j.yan93@gmail.com</h3>
     	</div>
@@ -85,21 +73,31 @@
 </div>
 
 
-<div id="nav-container" class="container z-index-level-one">
+<div id="top-nav-container" class="container z-index-level-two">
 	<div class="row">
 		
-		<div class="col flex-end hamburger-menu">
-      <svg width="31px" height="15px" viewBox="0 0 31 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs></defs>
-          <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
-              <g id="Desktop-HD-Copy-19" transform="translate(-1319.000000, -945.000000)" fill="#FFFFFF">
-                  <g id="Group-14" transform="translate(1319.000000, 945.000000)">
-                      <rect id="Rectangle" transform="translate(20.750000, 1.000000) rotate(-90.000000) translate(-20.750000, -1.000000) " x="20" y="-9" width="1.5" height="20"></rect>
-                      <rect id="Rectangle" transform="translate(15.750000, 14.000000) rotate(-270.000000) translate(-15.750000, -14.000000) " x="15" y="-1" width="1.5" height="30"></rect>
-                  </g>
-              </g>
-          </g>
-      </svg>
+		<div class="col justify-content-flex-end">
+      <div id="hamburger-menu-container">
+        <div id="hamburger-menu">
+          <div class="white-background-color" id="bar1"></div>
+          <div class="white-background-color" id="bar2"></div>
+        </div>
+        <!-- <div id="hamburger-menu">
+          <span class="white-background-color"></span>
+          <span class="white-background-color"></span>
+        </div> -->
+        <!-- <svg id="hamburger-menu" width="31px" height="15px" viewBox="0 0 31 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs></defs>
+            <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+                <g id="hamburger-menu-svg" transform="translate(-1319.000000, -945.000000)" fill="#FFFFFF">
+                    <g id="Group-14" transform="translate(1319.000000, 945.000000)">
+                        <rect id="Rectangle" transform="translate(20.750000, 1.000000) rotate(-90.000000) translate(-20.750000, -1.000000) " x="20" y="-9" width="1.5" height="20"></rect>
+                        <rect id="Rectangle" transform="translate(15.750000, 14.000000) rotate(-270.000000) translate(-15.750000, -14.000000) " x="15" y="-1" width="1.5" height="30"></rect>
+                    </g>
+                </g>
+            </g>
+        </svg> -->
+      </div>
 		</div>
 	</div>
 </div>

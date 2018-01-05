@@ -1,7 +1,7 @@
 
 //Bootstrap Override Variables
 $grid-gutter-width: 2.5vw;
-$font-size: 20px;
+$font-size: 18px;
 $font-family-base:
   "akkurat-light",
   -apple-system,
@@ -11,21 +11,20 @@ $font-family-base:
   "Roboto",
   "Helvetica Neue", Arial, sans-serif;
 
-$line-height-lg: 1.25;
-$line-height-sm: 1.75;
+$line-height-lg: 1.75;
+// $line-height-sm: 1.75;
 // $font-size-base: 1.25rem;
 $line-height-base: 1.75;
 
 
 //Global Variables
 $background-color: white;
-$cool-gray: #F7FAFC;
+$cool-gray: #F5F8FA;
 $body-color: #333333;
 $secondary-text-color: #B3B3B3;
 $tertiary-text-color: #7F7F7F;
 
-$container-vertical-margin-top: 6rem;
-$container-vertical-padding: 6rem;
+$container-vertical-padding: 8rem;
 $margin: 5vw;
 
 
@@ -51,8 +50,8 @@ $container-max-widths: (
   xs: 90vw,
   sm: 85vw,
   md: 85vw,
-  lg: 90vw,
-  xl: 90vw,
+  lg: 85vw,
+  xl: 88vw,
   xxl: 1400px
 );
 

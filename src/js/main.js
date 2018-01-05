@@ -1,3 +1,12 @@
+$(window).on('load', function(){
+	// Animate loader off screen
+	$("#loader").fadeOut();
+	// Fade in on Pageload
+	$(function() {
+	    $('#body-container').removeClass('fade-out');
+	});
+});
+
 const gridBreakpoints = {
   'xs': 0,
   'sm': 576,
@@ -7,7 +16,22 @@ const gridBreakpoints = {
   'xxl': 1600
 };
 
+
+
+
+
 $( document ).ready(function() {
+	
+
+	// Medium Image Zoom
+	(function() {
+	  // Add zooms to a container
+	  var containerZoom = [
+	    mediumZoom('#zoom-default')
+	  ]
+
+	})()
+
 	console.log( "ready!" );
 
 	// Scroll Code
@@ -27,19 +51,30 @@ $( document ).ready(function() {
 
 	$('.project-link').mouseover(
 		function() {
-			var canvasName = $(this).parents(".canvas").attr('id');
+			var canvasName = $(this).parents(".background-image").attr('id');
 			var project = $(this).attr('name');
 			var bgImagePrefix = $(this).parent().attr('name');
 			var bgImage = "#" + bgImagePrefix + project;
 			$(bgImage).css("opacity", 1);
 			$('.' + canvasName + '-project-name').css("color", "white");
-			$('.' + canvasName + '-project-type').css("color", "white");
+			$('.' + canvasName + '-project-header').css("color", "white");
 			$("#" + canvasName + "-header").css("color", "white");
 			$("#" + canvasName + "-subheader").css("color", "white");
 
-			$(this).siblings().each(function() {
-				$(this).find('div').css("opacity", ".3");
-			});
+			// console.log($(this).parent().find(".project-link"));
+			var outterThis = $(this);
+			$(this).parent().parent().find(".project-link").each(function() {
+				if(outterThis[0] != $(this)[0]) {
+					$(this).find('div').css({"opacity": ".3", "transition": "opacity .35s cubic-bezier(.39,.575,.565,1)"});
+				}
+			})
+			// $(this).find(".project-link").each(function() {
+			// 	$(this).find('div').css("opacity", ".3");
+			// });
+
+			// $(this).siblings().each(function() {
+			// 	$(this).find('div').css("opacity", ".3");
+			// });
 
 			
 		}
@@ -47,19 +82,26 @@ $( document ).ready(function() {
 
 	$('.project-link').mouseout(
 		function() {
-			var canvasName = $(this).parents(".canvas").attr('id');
+			var canvasName = $(this).parents(".background-image").attr('id');
 			var project = $(this).attr('name');
 			var bgImagePrefix = $(this).parent().attr('name');
 			var bgImage = "#" + bgImagePrefix + project;
 			$(bgImage).css("opacity", 0);
 			$('.' + canvasName + '-project-name').css("color", "#333333");
-			$('.' + canvasName + '-project-type').css("color", "#B3B3B3");
+			$('.' + canvasName + '-project-header').css("color", "#B3B3B3");
 			$('#' + canvasName + '-header').css("color", "#333333");
 			$('#' + canvasName + '-subheader').css("color", "#B3B3B3");
 
-			$(this).siblings().each(function() {
-				$(this).find('div').css("opacity", "1");
-			});
+			var outterThis = $(this);
+			$(this).parent().parent().find(".project-link").each(function() {
+				if(outterThis[0] != $(this)[0]) {
+					$(this).find('div').css("opacity", "1");
+				}
+			})
+
+			// $(this).siblings().each(function() {
+			// 	$(this).find('div').css("opacity", "1");
+			// });
 		}
 	);
 
@@ -98,19 +140,95 @@ $( document ).ready(function() {
 		}
 	);
 
+
+
 	// Nav Menu Code
 	var navMenuOpen = false;
-	$('.hamburger-menu').click(function() {
-			if (navMenuOpen) {
-					$('#mySidenav').css('height', '0vh');
-					// $('#nav-container').css('position', 'absolute');
-					navMenuOpen = false;
-			} else {
-					$('#mySidenav').css('height', '90vh');
-					// $('#nav-container').css('position', 'fixed');
-					navMenuOpen = true;
+	var menuBtnIsX = false;
+	var q = $('#hamburger-menu');
+	$('#hamburger-menu').hover(
 
+		// function() {
+		// 	if (!$('#bar1').hasClass('animated')) {
+		// 		$(this).find('#bar1').queue(function() {
+		// 			animate({top: "6px"}, 1000).dequeue();
+		// 		};
+		// 		$(this).find('#bar2').queue(function() {
+		// 			animate({top: "22px"}, 1000).dequeue();
+		// 		};
+		// 	}
+		// },
+		// function () {
+		// 	$(this).find('#bar1').addClass('animated').animate({top: "8.5px"}, 1000, "linear");
+		// 	$(this).find('#bar2').addClass('animated').animate({top: "19.5px"}, 1000, "linear", function() {
+		// 		console.log("animated remove");
+		// 		$('#bar1').removeClass('animated').dequeue();
+		// 		$('#bar2').removeClass('animated').dequeue();
+		// 	});	
+		// }
+
+		// Working hover effect
+		function() {
+			if (!$('#bar1').hasClass('animated')) {
+				$(this).find('#bar1').animate({top: "6px"}, 1000);
+				$(this).find('#bar2').animate({top: "22px"}, 1000);
 			}
+		},
+		function() {
+			$(this).find('#bar1').addClass('animated').animate({top: "8.5px"}, 1000, "linear");
+			$(this).find('#bar2').addClass('animated').animate({top: "19.5px"}, 1000, "linear", function() {
+				console.log("animated remove");
+				$('#bar1').removeClass('animated').dequeue();
+				$('#bar2').removeClass('animated').dequeue();
+			});	
+		}	
+	);
+
+	$('#hamburger-menu-container').click(function() {
+		// $('#bar2').promise().done(function() {
+		// 	$('#bar1').toggleClass("active", 1000, "ease-in-out"); 
+		// 	$('#bar2').toggleClass("active", 1000, "ease-in-out");
+
+		// });
+
+		$('#bar1').queue(function() {
+			toggleClass("active", 1000, "ease-in-out").dequeue(); 
+		});
+		$('#bar2').queue(function() {
+			toggleClass("active", 1000, "ease-in-out").dequeue();
+		});
+
+
+		// q.queue(function(next) {
+		// 	$("#bar1").toggleClass("active", 1000, "ease-in-out"); 
+		// 	$("#bar2").toggleClass("active", 1000, "ease-in-out");
+		// 	next(); 
+		// });
+		// return false;
+		// if (menuBtnIsX) {
+		// 	$("#bar1").toggleClass("active"); 
+		// 	$("#bar2").toggleClass("active"); 
+		// } else {
+		// 	$('#bar1, #bar2').delay(1000).queue(function(next) {
+		// 		$("#bar1").toggleClass("active"); 
+		// 		$("#bar2").toggleClass("active"); 
+		// 	});
+		// }
+		// $(this).find('#hamburger-menu').toggleClass('open');
+		if (navMenuOpen) {
+			$('#mySidenav').css('height', '0vh');
+			$('#hamburger-menu div').css("background-color", "#ffffff");
+			
+			// $('#nav-container').css('position', 'absolute');
+			navMenuOpen = false;
+			menuBtnIsX = true;
+		} else {
+			$('#mySidenav').css('height', '90vh');
+			$('#hamburger-menu div').css("background-color", "#333333");
+			// $('#nav-container').css('position', 'fixed');
+			navMenuOpen = true;
+
+		}
 		
 			
 	});
@@ -126,22 +244,3 @@ $( document ).ready(function() {
 
 });
 
-
-
-(function ($) {
-  var ready = $.fn.ready;
-  $.fn.ready = function (fn) {
-    if (this.context === undefined) {
-      // The $().ready(fn) case.
-      ready(fn);
-    } else if (this.selector) {
-      ready($.proxy(function(){
-        $(this.selector, this.context).each(fn);
-      }, this));
-    } else {
-      ready($.proxy(function(){
-        $(this).each(fn);
-      }, this));
-    }
-  }
-})(jQuery);
