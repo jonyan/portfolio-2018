@@ -179,7 +179,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/lumi-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/lumi/lumi-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .5s;
 }
@@ -190,7 +190,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/ases-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/ases/ases-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .5s;
 }
@@ -201,7 +201,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/firsthand-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/firsthand/firsthand-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
@@ -235,7 +235,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/lumi-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/lumi/lumi-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .5s;
 }
@@ -246,7 +246,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/ases-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/ases/ases-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .5s;
 }
@@ -257,7 +257,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/firsthand-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/firsthand/firsthand-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
@@ -282,8 +282,8 @@
 	// transition: opacity .35s;
   	-webkit-transform: scaleY(1);
   	transform: scaleY(1);
-  	bottom: -12px;
-  	transform: translateY(-8px);
+  	bottom: -8px;
+  	transform: translateY(-5px);
   	transition: all 0.25s ease-in-out 0s;
   	background-color: $body-color;
 
@@ -297,13 +297,13 @@
 	position: absolute;
 	width: 100%;
 	height: 1px;
-	bottom: -4px;
+	bottom: -3px;
 	left: 0;
 	background-color: $secondary-text-color;
 	// visibility: hidden;
 	// -webkit-transform: scaleX(0);
 	// transform: scaleX(0);
-	transform: translateY(10px);
+	transform: translateY(5px);
 	opacity: 0;
 	// transition: opacity .35s;
 	// -webkit-transition: all 0.5s ease-in-out 0s;

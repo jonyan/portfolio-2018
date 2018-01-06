@@ -4,7 +4,7 @@
 
 #top-nav-container {
 	@extend .absolute-horizontal-center;
-	top: $homepage-vertical-padding;
+	top: $homepage-vertical-margin;
     position: fixed;
 }
 
@@ -178,7 +178,7 @@
 // Slide Down Nav Menu
 
 #nav-container {
-    margin-top: $homepage-vertical-padding;
+    margin-top: $homepage-vertical-margin;
 	// margin-top: 10vh;
     height: 87.5%;
     display: flex;

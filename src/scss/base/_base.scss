@@ -34,3 +34,18 @@ li {
   background: white; /* Gecko Browsers */
   color: $body-color;
 }
+
+ol {
+  list-style: decimal !important;
+  padding-left: 1em !important;
+}
+
+ol li {
+  padding-left: .5em;
+}
+
+
+.horizontal-rule {
+  height: 1px;
+  background-color: #d8d8d8;
+}

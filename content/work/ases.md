@@ -11,8 +11,8 @@ name: "ases"
 
 
 <div class="container">
-	<div class="row container-vertical-padding">
-		<div class="col-lg-5 col-md-12">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				The Problem 
 			</h2>
@@ -20,7 +20,7 @@ name: "ases"
 				An Outdated Brand Hurts Membership
 			</h3>
 		</div>
-		<div class="offset-lg-1 col-lg-6 col-md-12">
+		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
 				The Asia-Pacific Student Entrepreneurship Society (ASES) was founded at Stanford University in 1998 with the mission of connecting entrepreneurs between Asia and Stanford. Since then, ASES has grown rapidly, spreading to over a dozen countries and gaining significant prestige, especially internationally. As a result of this international growth, ASES’s core mission has changed, becoming more about connecting entrepreneurs globally, and not just between Asia and Stanford.
 			</p>
@@ -37,19 +37,19 @@ name: "ases"
 <div class="container-vertical-padding viewport-width no-horizontal-margins case-overview-container">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-12">
+			<div class="col-lg-4 col-md-12 justify-content-center-md text-align-center-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<div>
 					<p class="no-margin-bottom">Project</p>
 					<p class="secondary-text-color">Identity, Print</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-12 flex-center-lg flex-start-md">
+			<div class="col-lg-4 col-md-12 justify-content-flex-center-lg justify-content-center-md text-align-center-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="100" data-aos-duration="600">
 				<div>
 					<p class="no-margin-bottom">Role</p>
 					<p class="secondary-text-color">Creative Lead, Visual Design</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-12 justify-content-flex-end-lg flex-start-md">
+			<div class="col-lg-4 col-md-12 justify-content-flex-end-lg justify-content-center-md text-align-center-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="300" data-aos-duration="800">
 				<div>
 					<p class="no-margin-bottom">Timeline</p>
 					<p class="secondary-text-color">August &ndash; November 2014</p>
@@ -62,23 +62,23 @@ name: "ases"
 <div class="viewport-dimensions display-flex align-item-center">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-5">
+			<div class="col-lg-5" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="" data-aos-duration="600">
 				<h3 class="no-margin-bottom">1998</h3>
 				<h3 class="secondary-text-color">The Original Logo</h3>
 				<p>
 					The original ASES logo was designed to convey a connection between Asia and Stanford, the East and the West, though ASES. Color is central to the logo with the red and blue colors representing the East and West respectively.
 				</p>
 			</div>
-			<div class="col-lg-6 offset-lg-1" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="700">
-				<img class="img-fluid" src="/images/ases-old-logo.png">
+			<div class="col-lg-6 offset-lg-1" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+				<img class="img-fluid" src="/images/ases/ases-old-logo.png">
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
-		<div class="col-lg-5 col-md-12">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				2014
 			</h3>
@@ -92,21 +92,21 @@ name: "ases"
 <div class="container-vertical-padding viewport-width no-horizontal-margins cool-gray-background-color">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="false" data-aos-duration="600">
-				<img class="img-fluid img-group-margin-btm" src="/images/ases-new-logo-xxl.png" alt="ASES Logo on White">
+			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+				<img class="img-fluid img-group-margin-btm" src="/images/ases/ases-new-logo-xxl.png" alt="ASES Logo on White">
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
-				<img class="img-fluid img-group-margin-btm" src="/images/ases-blue-new-logo-xxl.png" alt="ASES Logo on Blue">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+				<img class="img-fluid img-group-margin-btm" src="/images/ases/ases-blue-new-logo-xxl.png" alt="ASES Logo on Blue">
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
-				<img class="img-fluid img-group-margin-btm" src="/images/ases-image-new-logo-lg.jpg" alt="ASES Logo on Image">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+				<img class="img-fluid img-group-margin-btm" src="/images/ases/ases-image-new-logo-lg.jpg" alt="ASES Logo on Image">
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
+	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12">
 			<p>
 				Inspired by the existing logo’s metaphor for East and West, I extended it into a circle to represent a more global metaphor.
@@ -118,7 +118,7 @@ name: "ases"
 	</div>
 </div>
 
-<!-- <div class="container-vertical-padding viewport-width no-horizontal-margins cool-gray-background-color">
+<!-- <div class="container-vertical-margin viewport-width no-horizontal-margins cool-gray-background-color">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -132,8 +132,8 @@ name: "ases"
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="video-container">
-					<video id="ases-animation-video" autoplay loop>
+				<div id="ases-video-container">
+					<video id="ases-animation-video" autoplay controls loop>
 					 	<source src="/videos/ases-logo-animation.mp4" type="video/mp4">
 						Your browser does not support HTML5 video.
 					</video>
@@ -144,7 +144,7 @@ name: "ases"
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
+	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12">
 			<p>
 				I furthered the use of gradients from the logo to create gradient image filters that could be applied to ASES images and content, making them instantly recognizable and associated with ASES.
@@ -158,18 +158,18 @@ name: "ases"
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<img class="img-fluid img-group-margin-btm img-shadow-dark" id="zoom-default" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600" src="/images/ases-website-xxl.jpg" alt="ASES Website Gradient">
+				<img class="img-fluid img-group-margin-btm img-shadow-dark" id="zoom-default" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600" src="/images/ases/ases-website-xxl.jpg" alt="ASES Website Gradient">
 			</div>
 			<div class="col-lg-6">
-				<img class="img-fluid img-group-margin-btm img-shadow-dark" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600" id="zoom-default" src="/images/ases-facebook-xxl.jpg" alt="ASES Facebook Gradient">
+				<img class="img-fluid img-group-margin-btm img-shadow-dark" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600" id="zoom-default" src="/images/ases/ases-facebook-xxl.jpg" alt="ASES Facebook Gradient">
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
-		<div class="col-lg-5 col-md-12">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				Style Guide
 			</h3>
@@ -177,7 +177,7 @@ name: "ases"
 				Unifying the ASES Chapters
 			</h3>
 		</div>
-		<div class="offset-lg-1 col-lg-6 col-md-12">
+		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
 				To communicate the new identity to ASES’s over dozen chapters, I created a style guide that was shared with the global ASES community.
 			</p>
@@ -193,71 +193,71 @@ name: "ases"
 <div class="container-vertical-padding viewport-width no-horizontal-margins cool-gray-background-color">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img 
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-1-xxl.png"
+					src="/images/ases/ases-style-guide-1-xxl.png"
 					alt="ASES Style Guide 1" 
 				>
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="200" data-aos-duration="600">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-2-lg.png"
-					data-zoom-target="/images/ases-style-guide-2-xxl.png"
+					src="/images/ases/ases-style-guide-2-lg.png"
+					data-zoom-target="/images/ases/ases-style-guide-2-xxl.png"
 					alt="ASES Style Guide 2"
 				>
 			</div>
-			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-3-xxl.png"
+					src="/images/ases/ases-style-guide-3-xxl.png"
 					alt="ASES Style Guide 3"
 				>
 			</div>
-			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-4-xxl.png"
+					src="/images/ases/ases-style-guide-4-xxl.png"
 					alt="ASES Style Guide 4"
 				>
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-5-lg.png"
-					data-zoom-target="/images/ases-style-guide-5-xxl.png"
+					src="/images/ases/ases-style-guide-5-lg.png"
+					data-zoom-target="/images/ases/ases-style-guide-5-xxl.png"
 					alt="ASES Style Guide 5"
 				>
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="200" data-aos-duration="600">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-6-lg.png"
-					data-zoom-target="/images/ases-style-guide-6-xxl.png"
+					src="/images/ases/ases-style-guide-6-lg.png"
+					data-zoom-target="/images/ases/ases-style-guide-6-xxl.png"
 					alt="ASES Style Guide 6"
 				>
 			</div>
-			<div class="offset-lg-6 col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="offset-lg-6 col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-7-lg.png"
-					data-zoom-target="/images/ases-style-guide-7-xxl.png"
+					src="/images/ases/ases-style-guide-7-lg.png"
+					data-zoom-target="/images/ases/ases-style-guide-7-xxl.png"
 					alt="ASES Style Guide 7"
 				>
 			</div>
-			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+			<div class="col-lg-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img
 					class="img-fluid img-group-margin-btm img-shadow"
 					id="zoom-default"
-					src="/images/ases-style-guide-8-xxl.png"
+					src="/images/ases/ases-style-guide-8-xxl.png"
 					alt="ASES Style Guide 8"
 				>
 			</div>
@@ -266,8 +266,8 @@ name: "ases"
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
-		<div class="col-lg-5 col-md-12">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12"  data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				Brand Applications
 			</h3>
@@ -275,7 +275,7 @@ name: "ases"
 				Print & Brand Collateral
 			</h3>
 		</div>
-		<div class="offset-lg-1 col-lg-6 col-md-12">
+		<div class="offset-lg-1 col-lg-6 col-md-12"  data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
 				Further, for our annual summit, we design and print a packet that includes information on fellow delegates, speakers, and the week’s activities. Getting accepted to attend an ASES summit can be a big deal for delegates who may have never been to the US, much less the Silicon Valley and Stanford University. While the packet serves as a useful reference during the conference, it also serves as a piece of memorabilia that delegates can keep and bring home with them.
 			</p>
@@ -284,11 +284,11 @@ name: "ases"
 </div>
 
 <div class="viewport-width no-horizontal-margins">
-	<img class="img-fluid" src="/images/ases-summit-packet.jpg">
+	<img class="img-fluid" src="/images/ases/ases-summit-packet.jpg">
 </div>
 
 <div class="container">
-	<div class="row container-vertical-padding">
+	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12">
 			<p>
 				Further, as a school club, a large majority of our most effective marketing still comes in the form of printed flyers distributed around campus and t-shirts worn at activites and recruiting events.
@@ -299,48 +299,48 @@ name: "ases"
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+		<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
-				src="/images/ases-2015-flyer-lg.jpg"
-				data-zoom-target="/images/ases-2015-flyer-xxl.jpg"
+				src="/images/ases/ases-2015-flyer-lg.jpg"
+				data-zoom-target="/images/ases/ases-2015-flyer-xxl.jpg"
 			>
 		</div>
-		<div class="col-lg-6 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-delay="200" data-aos-duration="600">
+		<div class="col-lg-6 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
-				src="/images/ases-vc3-flyer-lg.jpg"
-				data-zoom-target="/images/ases-vc3-flyer-xxl.jpg"
+				src="/images/ases/ases-vc3-flyer-lg.jpg"
+				data-zoom-target="/images/ases/ases-vc3-flyer-xxl.jpg"
 			>
 		</div>
-		<div class="col-lg-6 offset-lg-6 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="false" data-aos-duration="600">
+		<div class="col-lg-6 offset-lg-6 col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
-				src="/images/ases-t-shirt-lg.jpg"
-				data-zoom-target="/images/ases-t-shirt-xxl.jpg"
+				src="/images/ases/ases-t-shirt-lg.jpg"
+				data-zoom-target="/images/ases/ases-t-shirt-xxl.jpg"
 			>
 		</div>
-		<div class="col-lg-12"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="false" data-aos-duration="600">
+		<div class="col-lg-12"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
-				src="/images/ases-business-cards-xxl.jpg"
+				src="/images/ases/ases-business-cards-xxl.jpg"
 			>
 		</div>
-		<div class="col-lg-12"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="false" data-aos-duration="600">
+		<div class="col-lg-12"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
-				src="/images/ases-stationary-mockup-xxl.jpg"
+				src="/images/ases/ases-stationary-mockup-xxl.jpg"
 			>
 		</div>
 	</div>
 </div>
 
-<div class="container-vertical-padding-top">
+<div class="container-vertical-margin-top">
 	<div class="viewport-dimensions ">
 		<div class="cool-gray-texture display-flex align-item-center text-align-center">
 			<div class="container">
