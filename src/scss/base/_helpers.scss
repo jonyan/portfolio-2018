@@ -224,6 +224,182 @@
 	}
 }
 
+.img-group-margin-btm-equal {
+	margin-bottom: $grid-gutter-width;
+}
+
+// Crossfade animation code
+
+.cf {
+	position: relative;
+}
+
+// Custom height values for image heights
+.cf-responsive-1080 {
+	
+	@include media-breakpoint-up(xs) {
+		height: 57vw;
+	}
+
+	@include media-breakpoint-up(sm) {
+		height: 52.1vw;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 51vw;
+	}
+
+	@include media-breakpoint-up(lg) {
+		height: 50.1vw;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: 50.8vw;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		height: 804px;
+	}
+}
+
+.cf-responsive-1707 {
+	@include media-breakpoint-up(xs) {
+		height: 86vw;
+	}
+
+	@include media-breakpoint-up(sm) {
+		height: 79vw;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 78vw;
+	}
+
+	@include media-breakpoint-up(lg) {
+		height: 77.1vw;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: 78.8vw;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		height: 1250px;
+	}
+}
+
+.cf-responsive-908 {
+	@include media-breakpoint-up(xs) {
+		height: 49.2vw;
+	}
+
+	@include media-breakpoint-up(sm) {
+		height: 44.7vw;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 43.6vw;
+	}
+
+	@include media-breakpoint-up(lg) {
+		height: 42.7vw;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: 43.2vw;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		height: 682px;
+	}
+}
+
+
+.cf-responsive-877 {
+	@include media-breakpoint-up(xs) {
+		height: 48vw;
+	}
+
+	@include media-breakpoint-up(sm) {
+		height: 43.2vw;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 42.2vw;
+	}
+
+	@include media-breakpoint-up(lg) {
+		height: 41.3vw;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: 41.8vw;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		height: 659px;
+	}
+}
+
+.cf-responsive-679 {
+	@include media-breakpoint-up(xs) {
+		height: 39vw;
+	}
+
+	@include media-breakpoint-up(sm) {
+		height: 34.7vw;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 33.6vw;
+	}
+
+	@include media-breakpoint-up(lg) {
+		height: 32.7vw;
+	}
+
+	@include media-breakpoint-up(xl) {
+		height: 32.9vw;
+	}
+
+	@include media-breakpoint-up(xxl) {
+		height: 518px;
+	}
+}
+
+
+.cf-top:hover, .cf-top-hover-mobile {
+	opacity: 0;
+	transition: opacity .35s ease-in-out;
+}
+
+.cf img {
+	transition: opacity .35s ease-in-out;
+}
+
+.cf-top {
+	opacity: 1;
+	transition: opacity .35s ease-in-out;
+	width: 97.5%;
+	position: absolute;
+	// left: 0;
+	// right: 0;
+	// margin: auto;
+
+}
+
+.cf-btm  {
+	position: absolute;
+	width: 97.5%;
+}
+
+
+.timeline-border {
+	border-left: 3px solid $body-color;
+	padding-left: 2rem;
+}
+
+
 .width-one-hundred {
 	width: 100%;
 	height: auto;

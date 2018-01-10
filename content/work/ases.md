@@ -15,7 +15,7 @@ name: "ases"
 		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				The Problem 
-			</h2>
+			</h3>
 			<h3 class="secondary-text-color header-margin-bottom">
 				An Outdated Brand Hurts Membership
 			</h3>
@@ -135,7 +135,7 @@ name: "ases"
 				<div id="ases-video-container">
 					<video id="ases-animation-video" autoplay controls loop>
 					 	<source src="/videos/ases-logo-animation.mp4" type="video/mp4">
-						Your browser does not support HTML5 video.
+						Aw man! Looks like your browser doesn't support HTML5 video which means you can't see my super awesome video. Try opening this page in a Google Chrome browser instead!
 					</video>
 				</div>
 			</div>	

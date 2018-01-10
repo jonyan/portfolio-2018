@@ -11,10 +11,10 @@ name: "lumi"
 
 <div class="container">
 	<div class="row container-vertical-margin">
-		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				Senior Capstone
-			</h2>
+			</h3>
 			<h3 class="secondary-text-color header-margin-bottom">
 				10 Weeks to Build a Real World Software Project
 			</h3>
@@ -57,7 +57,7 @@ name: "lumi"
 
 <div class="container">
 	<div class="row container-vertical-margin">
-		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
 				User Pain Points
 			</h2>
@@ -279,24 +279,24 @@ name: "lumi"
 
 <div class="container">
 	<div class="row container-vertical-margin">
-		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="col-lg-5 col-md-12">
 			<h3 class="primary-text-color no-margin-bottom">
 				Primary Design Challenge
 			</h3>
 		</div>
-		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="offset-lg-1 col-lg-6 col-md-12">
 			<p>
-				Our primary design challenge was creating a set of interactions for controlling the mirror that would be intuitive to the user, intentional to the Kinect, and powerful enough to navigate a UI. In order for the system to be really cohesive, the gestures and the UI had to be designed hand in hand as one experience. Because we weren’t familiar yet with the technical limitations of the Kinect, our process became highly iterative: describe a gesture, sketch a resulting UI, prototype the gesture on the Kinect, repeat.
+				Our primary design challenge was creating a set of interactions for controlling the mirror that would be intuitive to the user, intentional to the Kinect, and powerful enough to navigate a UI. Because we weren’t familiar yet with the technical limitations of the Kinect, our process became highly iterative: describe a gesture, sketch a resulting UI, prototype the gesture on the Kinect, repeat.
 			</p>
 			<p>
-				The set of functions we needed to accomplish through the system we designed included:
+				The set of functions our interaction system needed to be able to handle included:
 			</p>
 			<ol>
 				<li>
 					Adding/removing widgets
 				</li>
 				<li>
-					Initializing widgets (i.e. setting permissions, onboarding settings, etc.)
+					Initializing widgets (i.e. permissions, onboarding, etc.)
 				</li>
 				<li>
 					Customizing widget locations
@@ -320,19 +320,19 @@ name: "lumi"
 		</div>
 		<div class="offset-lg-2 col-lg-6">
 			<p>
-				Inspired by PCs, our first designs employed a cursor controlled by the user’s arm to navigate the mirror’s interface. The user would raise her arm to chest height to “grab” the cursor. The cursor would then follow her hand as she moved it around. This turned out to be a poor design for several reasons. Firstly, tracking the hand and mapping it to a precise x, y cursor coordinate was inaccurate and unreliable. Secondly, capturing and then processing a gesture takes a non-trivial amount of time, resulting in a significant delay between the movement of the hand and the movement of the cursor on the mirror.
+				Inspired by PCs, our first designs employed a cursor controlled by the user’s arm to navigate the mirror’s interface. The user simply raises her arm to chest height to “grab” the cursor. The cursor would then follow her hand as she moved it around. This turned out to be a poor design for several reasons. Firstly, tracking the hand and mapping it to a precise x, y cursor coordinate was inaccurate and unreliable. Secondly, capturing and then processing a gesture takes a non-trivial amount of time, resulting in a significant delay between the movement of the hand and the movement of the cursor on the mirror.
 			</p>
 			<p>
 				In our next iterations, we focused on designing a system that would mask this sluggishness by requiring less granular gestures. Instead of precises x, y coordinates, we divided the screen into a grid of areas that could be selected as the user moved her hand to different areas on the screen.
 			</p>
 			<p>
-				While this improved perceived responsiveness, especially in the middle of the screen, near the edges of the screen, this system often failed to capture the gesture, making it too frustrating to use in a daily routine.
+				While this improved consistency and accuracy, especially in the middle of the screen, near the edges of the screen, this system often failed to capture the gesture, making it too frustrating to use in a daily routine.
 			</p>
 			<p>
-				Ultimately, we realized that we were trying to make the mirror do too much. Day to day, the user wouldn’t need to set the widgets’ permissions, customize the widgets’ locations or add/remove widgets – these were all system settings that the user would likely only need to set once. We moved all of these tasks into a separate web app that the user could set on her laptop or mobile phone. The mirror would then only need to handle launching widgets.
+				Ultimately, we realized that we were trying to make the mirror do too much. Day to day, the user wouldn’t need to set the widgets’ permissions, customize the widgets’ locations or add/remove widgets – these were all system settings that the user would likely only need to set once. We moved all of these tasks into a separate web app that the user could set on her laptop or mobile phone and then forget about. The mirror would only need to handle launching widgets.
 			</p>
 			<p>
-				Our final solution was a clever radial menu interaction that appears in the center of the mirror when the user raises her arm out to chest height. From there, the user moves her hand in any one direction to highlight an option. Once an option is highlighted, she simply holds for three seconds and the option is selected. 
+				Our final solution was a clever radial menu interaction that appears in the center of the mirror when the user raises her arm out to chest height. From there, the user moves her hand in any one direction to highlight an option. Once an option is highlighted, she simply holds for two seconds and the option is selected. 
 			</p>
 		</div>
 	</div>
@@ -341,15 +341,10 @@ name: "lumi"
 <div class="container container-vertical-margin">
 	<div class="row">
 		<div class="col-lg-12">
-			<div>
-				<video class="width-one-hundred" autoplay controls loop>
-				 	<source src="/videos/lumi-radial-animation.mp4" type="video/mp4">
-					Your browser does not support HTML5 video.
-				</video>
-				<script>
-					$("#ases-animation-video").get(0).play();
-				</script>
-			</div>
+			<video class="width-one-hundred" autoplay controls loop>
+			 	<source src="/videos/lumi-radial-animation.mp4" type="video/mp4">
+				Aw man! Looks like your browser doesn't support HTML5 video which means you can't see my super awesome video. Try opening this page in a Google Chrome browser instead!
+			</video>
 		</div>	
 	</div>
 </div>
@@ -358,10 +353,10 @@ name: "lumi"
 	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12">
 			<p>
-				This system worked extremely well as it could only be activated from a highly specific, intentional movement and was very forgiving in that it required little granularity and focus in movement to accurately select a desired option.
+				This system worked extremely well as it could only be activated from a highly specific, intentional movement and was very forgiving in that it required little granularity and focus in movement to accurately select a desired option. Further, it greatly improved perceived responsiveness and felt snappy compared with previous iterations.
 			</p>
 			<p>
-				However, a tradeoff with this design was the number of apps it could handle. We found that it worked best with 5 apps, any more than that and the gesture control has a harder time differentiating options. 
+				However, a tradeoff with this design was the number of apps it could handle. We found that it worked best with 5 apps, any more than that and the Kinect has a harder time differentiating options. 
 			</p>
 		</div>
 	</div>
@@ -378,7 +373,7 @@ name: "lumi"
 				data-zoom-target="/images/lumi/lumi-radial-one-xxl.jpg"
 			>
 		</div>
-		<div class="col-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="col-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
 			<img 
 				class="img-fluid img-group-margin-btm"
 				id="zoom-default"
@@ -392,15 +387,340 @@ name: "lumi"
 
 <div class="container">
 	<div class="row container-vertical-margin">
-		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
-				Visual Design
+				UI &amp; Visual Design
 			</h2>
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				In early iterations, we envisioned having live app cards, similar to Microsoft Windows Phone live tiles. These would allow the user to glean useful summary information at a glance without needing to launch a widget. Because we wanted to maximize the amount of reflective mirror surface, we hid these app cards behind a menu button on the bottom left. Hovering over this button revealed the app cards that users could scroll through by swiping their hand.
+				Along with our interaction system, our corresponding UI went through several iterations as well. In early iterations, we envisioned having live app cards, similar to Microsoft Windows Phone live tiles. These would allow the user to glean useful summary information at a glance. Because we wanted to maximize the amount of reflective mirror surface, we hid these app cards behind a menu button on the bottom left. Hovering over this button revealed the app cards that users could scroll through by swiping their hand. As we learned more about the limitations of the Kinect’s gesture recognition capabilities, we realized this was actually a poor design.
 			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-mail-one-xxl.png"
+				alt="Mail Iterations"
+				data-zoom-target="/images/lumi/lumi-mail-one-xxl.png"
+			>
+		</div>
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-fb-xxl.png"
+				alt="FB Iterations"
+				data-zoom-target="/images/lumi/lumi-fb-xxl.png"
+			>
+		</div>
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-espn-xxl.png"
+				alt="ESPN Iterations"
+				data-zoom-target="/images/lumi/lumi-espn-xxl.png"
+			>
+		</div>
+		<div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-mirror-iteration-one-sleep-lg.png"
+				alt="Lumi Mirror Iteration 1 Passive"
+				data-zoom-target="/images/lumi/lumi-mirror-iteration-one-sleep-lg.png"
+			>
+		</div>
+		<div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-mirror-iteration-one-awake-lg.png"
+				alt="Lumi Mirror Iteration 1 Approach"
+				data-zoom-target="/images/lumi-mirror-iteration-one-awake-lg.png"
+			>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row container-vertical-margin">
+		<div class="offset-lg-6 col-lg-6 col-md-12">
+			<p>
+				In these early iterations, we didn’t have a good grasp on appropriate use cases for a smart mirror. We viewed it just like a larger tablet with the ability to launch media rich applications like Facebook and ESPN. However, as we talked to more users and explored the technical limitations of our hardware, we realized that while we could implement those applications, they weren’t appropriate for a smart mirror and would lead to a very poor user experience as they required a very accurate and granular method of input. Further, hiding the app cards behind a menu was simply a bad user experience as it required too many steps to access information that should already be available at a glance.
+			</p>
+			<p>
+				Taking these learnings, we adjusted our UI to have the widgets already displayed along the unused edges of the mirror. We went through a variety of iterations and visual treatments to find designs that were glanceable and felt lightweight visually.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 cf cf-responsive-1080" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-time-final-xxl.png"
+				alt="Time Final Version"
+				data-zoom-target="/images/lumi/lumi-time-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-time-xxl.png"
+				alt="Time Iterations"
+				data-zoom-target="/images/lumi/lumi-time-xxl.png"
+			>
+		</div>
+		<div class="col-12 cf cf-responsive-1080" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-stock-final-xxl.png"
+				alt="Stock Ticker Final Version"
+				data-zoom-target="/images/lumi/lumi-stock-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-stock-xxl.png"
+				alt="Stock Ticker Iterations"
+				data-zoom-target="/images/lumi/lumi-stock-xxl.png"
+			>
+		</div>
+		<div class="col-12 cf cf-responsive-1707" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-mail-two-final-xxl.png"
+				alt="Mail Feed Final Version"
+				data-zoom-target="/images/lumi/lumi-mail-two-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-mail-two-xxl.png"
+				alt="Mail Feed Iterations"
+				data-zoom-target="/images/lumi/lumi-mail-two-xxl.png"
+			>
+		</div>
+		<div class="col-12 cf cf-responsive-908" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-npr-final-xxl.png"
+				alt="NPR Radio Final Version"
+				data-zoom-target="/images/lumi/lumi-npr-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-npr-xxl.png"
+				alt="NPR Radio Iterations"
+				data-zoom-target="/images/lumi/lumi-npr-xxl.png"
+			>
+		</div>
+		<div class="col-12 cf cf-responsive-877" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-calendar-final-xxl.png"
+				alt="Calendar Final Version"
+				data-zoom-target="/images/lumi/lumi-calendar-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-calendar-xxl.png"
+				alt="Calendar Iterations"
+				data-zoom-target="/images/lumi/lumi-calendar-xxl.png"
+			>
+		</div>
+		<div class="col-12 cf cf-responsive-679" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm cf-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-timer-final-xxl.png"
+				alt="Timer Final Version"
+				data-zoom-target="/images/lumi/lumi-timer-xxl.png"
+			>
+			<img 
+				class="img-fluid img-group-margin-btm cf-top"
+				id="zoom-default"
+				src="/images/lumi/lumi-timer-xxl.png"
+				alt="Timer Iterations"
+				data-zoom-target="/images/lumi/lumi-timer-xxl.png"
+			>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row container-vertical-margin">
+		<div class="offset-lg-6 col-lg-6 col-md-12">
+			<p>
+				We knew iconography was going to be extremely useful in keeping our user interface lightweight yet intuitive. To maintain visual cohesiveness, we designed a custom set of icons.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-widgets-icons.png"
+				alt="Widget Icons"
+			>
+		</div>
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-weather-icons.png"
+				alt="Weather Icons"
+			>
+		</div>
+		<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-sun-icon-lg.png"
+				alt="Sunny Closeup"
+				data-zoom-target="/images/lumi/lumi-sun-icon-xxl.png"
+			>
+		</div>
+		<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-partly-cloudy-icon-lg.png"
+				alt="Partly Cloudy Closeup"
+				data-zoom-target="/images/lumi/lumi-partly-cloudy-icon-xxl.png"
+			>
+		</div>
+		<div class="offset-lg-6 col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-final-mockup.png"
+				alt="Final Mockup"
+			>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<h3 class="primary-text-color no-margin-bottom">
+				The Software
+			</h2>
+			<h3 class="secondary-text-color header-margin-bottom">
+				PyKinect, Node.js, and a Python Web Server
+			</h3>
+		</div>
+		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<p>
+				We built the mirror's software using Node.js since the majority of our widgets (e.g. Spotify music player, weather, stock, email etc) provided web APIs. The monitor simply displays a full sized web browser that loads a webpage connected to a local Node server running on our laptop. The UI elements were built and animated with HTML, CSS, and Javascript. In addition to the mirror GUI, we built an additional web service that enables users to customize the location of widgets on the mirror display through a drag and drop interface as well as manage permissions for the widgets (e.g. Twitter, Spotify, email, etc).
+			</p>
+			<p>
+				For gesture recognition, we utilized the PyKinect framework and built a separate Python server to process and handle the input and feed it to the Node.js server.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-weather-xxl.jpg"
+				alt="Weather Widget"
+			>
+		</div>
+		<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-twitter-lg.jpg"
+				alt="Twitter Widget"
+				data-zoom-target="/images/lumi/lumi-twitter-xxl.jpg"
+			>
+		</div>
+		<div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-stocks-lg.jpg"
+				alt="Lumi"
+				data-zoom-target="/images/lumi/lumi-stocks-xxl.jpg"
+			>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<h3 class="primary-text-color no-margin-bottom">
+				Results
+			</h2>
+			<h3 class="secondary-text-color header-margin-bottom">
+				Project Fair
+			</h3>
+		</div>
+		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<p>
+				At the project fair, Lumi’s gesture recognition and radial menu design performed remarkably well with a variety of user heights and under a range of lighting conditions. Feedback from users and faculty were overwhelmingly positive. By popular vote, Lumi won "Best Senior Capstone Project".
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<img 
+				class="img-fluid img-group-margin-btm"
+				id="zoom-default"
+				src="/images/lumi/lumi-project-fair-demo.jpg"
+				alt="Project Fair"
+			>
+		</div>
+	</div>
+</div>
+
+<div class="container-vertical-margin-top">
+	<div class="viewport-dimensions">
+		<div class="cool-gray-texture display-flex align-item-center text-align-center" id="lumi-footer">
+			<div class="container">
+				<div class="row">
+					<div class="offset-lg-3 col-lg-6 col-12-md">
+						<h3>
+							Lumi was awarded  “Best Senior Capstone Project”.
+						</h3>
+						<br>
+						<p>
+							<i>Built in collaboration with Dan Guo, Brian Yang, and Sloane Sturzenegger (from left to right).</i>
+						</p>
+					</div>	
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
