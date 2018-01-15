@@ -206,6 +206,7 @@
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
 
+
 #home-canvas-two-project-name {
 	color: $body-color;
 }
@@ -228,16 +229,16 @@
 	background-color: $cool-gray
 }
 
-#home-canvas-three-bg-image-lumi {
-	// TODO: Add responsive background image code
+
+#home-canvas-three-bg-image-chair-shelf {
 	background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/lumi/lumi-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/chair-shelf/chair-shelf-cover-xxl.jpg') center / cover no-repeat;
 	opacity: 0;
-	transition: opacity .5s;
+	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
 
 #home-canvas-three-bg-image-ases {
@@ -286,7 +287,6 @@
   	transform: translateY(-5px);
   	transition: all 0.25s ease-in-out 0s;
   	background-color: $body-color;
-
 }
 
 // .footer-link {

@@ -17,7 +17,7 @@ name: "firsthand"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				On-demand food and grocery delivery startups have taken off in the last several years. However, on-demand retail delivery still seems to be almost non-existent. Firsthand was the pivot of a startup I founded in 2017 that attempts to test the value proposition of a retail delivery service. My co-founder and I gave ourselves a strict timeline of 4 weeks to build and launch a barebones MVP.
+				On-demand food and grocery delivery startups have taken off in the last several years. However, on-demand retail delivery still seems to be almost non-existent. Firsthand Delivery was a pivot of a startup I founded in 2017 that attempts to test the value proposition of a retail delivery service. My co-founder and I gave ourselves a strict timeline of 4 weeks to build and launch a barebones MVP.
 			</p>
 		</div>
 	</div>
@@ -63,7 +63,7 @@ name: "firsthand"
 				US e-commerce sales have exploded over the past two decades, growing by more than 20x since 2000. In contrast, brick and mortar retailers have suffered severely with thousands of retail stores closing in 2017 and household names like Toys“R”Us, Payless, and Radio Shack filing for bankruptcy protection.
 			</p>
 			<p>
-				Despite this, substantial evidence suggests that brick and mortar retail isn’t disappearing anytime soon, but is rather adapting and modernizing to a digital era. As a Harvard Business Review <a class="footer-link" href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" rel="noopener noreferrer" target="_blank">study</a> discovered, brick and mortar retailers who invested in omnichannel shopping experiences gained more loyal and valuable customers &#8212; omnichannel shoppers spent on average 4% more per shopping trip and 10% more online. E-commerce giants like Amazon and Alibaba have recognized the indispensability of brick and mortar retail and have bet billions of dollars in the future of offline retail by building stores like Amazon Go and Hema.
+				Despite this, substantial evidence suggests that brick and mortar retail isn’t disappearing anytime soon, but rather needs to adapt and modernize to a digital era. As a Harvard Business Review <a class="footer-link" href="https://hbr.org/2017/01/a-study-of-46000-shoppers-shows-that-omnichannel-retailing-works" rel="noopener noreferrer" target="_blank">study</a> discovered, brick and mortar retailers who invested in omnichannel shopping experiences gained more loyal and valuable customers: omnichannel shoppers spent on average 4% more per shopping trip and 10% more online. E-commerce giants like Amazon and Alibaba have recognized the indispensability of brick and mortar retail and have bet billions of dollars on the future of offline retail by building stores like Amazon Go and Hema.
 			</p>
 		</div>
 	</div>
@@ -101,7 +101,7 @@ name: "firsthand"
 					Implementation
 				</li><br>
 				<li>
-					<b>Weeks 5, 6, & 7</b><br>
+					<b>Weeks 5 &#8211; 7</b><br>
 					Testing
 				</li>
 			</ul>
@@ -141,7 +141,7 @@ name: "firsthand"
 				We began by conducting needfinding interviews to learn more about users’ frustrations with the online and offline shopping experiences. While we were expecting to hear users primarily gripe about the offline shopping experience, we were surprised to hear an equal number of complaints with online shopping as well.
 			</p>
 			<p>
-				While shopping online provides clear benefits – it’s the easiest way to browse and compare products quickly – a big disadvantage is the inability to try items before purchasing as well as the lack of instant gratification after purchasing. To combat this, “innovative” companies have implemented home try-on programs and lenient shipping and return policies. Despite this, returning an item is still at minimum a multi-day process involving repackaging items and a trip to the post office. This was a much larger headache for customers than we originally realized. Because of this, we learned that customers who were on the fence about purchasing items defaulted to not purchasing since they didn’t want to deal with returns.
+				While shopping online provides clear benefits&#8212;it’s the easiest way to browse and compare products quickly&#8212;a big disadvantage is the inability to try items on before purchasing as well as the lack of instant gratification after purchasing. To combat this, “innovative” companies have implemented home try-on programs and lenient shipping and return policies. Despite this, returning an item is still at minimum a multi-day process involving repackaging items and a trip to the post office. Because of this, we learned that customers who were on the fence about purchasing items online, defaulted to not purchasing since they didn’t want to deal with returns.
 			</p>
 			<p>
 				Shopping offline solves many of these issues. Namely, the customer can try-on items immediately with zero up-front monetary cost and get instant gratification if she decides to purchase. Nevertheless, we found that students and young people who lived in cities had difficulty accessing malls due to transportation and time limitations making the experience of shopping offline extremely unpleasant and time consuming. From finding parking at malls, to running from store to store, to dressing and undressing in small fitting rooms, a trip to the mall can easily turn into a full-day activity that often still resulted in the customer leaving empty handed. Further, millennial shoppers stressed the importance of being able to do their shopping research online where they can compare prices and find the best deals.
@@ -247,7 +247,7 @@ name: "firsthand"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				From our user interviews, we knew that millennial shoppers valued the ability to browse and compare products online. To enable this, we would need to acquire inventory data so we could display it on our site. This presented a tricky problem for us as retailers don’t readily provide this information via API. Brainstorming we came up with several options.
+				From our user interviews, we knew that millennial shoppers valued the ability to browse and compare products online. To enable this, we needed to acquire inventory data so we could display it on our site. This presented a tricky problem as retailers don’t readily provide this information via API. Brainstorming we came up with several options.
 			</p>
 			<p>
 				<b>Option 1: Manual Input </b><br>
@@ -255,8 +255,8 @@ name: "firsthand"
 
 			</p>
 			<p>
-				<b>Option 2: Form Retail Partnerships </b><br>
-				Similarly to how grocery delivery services like Instacart work, we could partner with with retailers to gain API access to their inventory systems. While this would be the most reliable and scalable option, it would take months to acquire these partnerships, making it overkill for an MVP.
+				<b>Option 2: Form Partnerships </b><br>
+				Similarly to how grocery delivery services like Instacart work, we could partner with with retailers to gain API access to their inventory systems. While this would be the most reliable and scalable option, it would take months to acquire these partnerships, making it unrealistic for an MVP.
 			</p>
 			<p>
 				<b>Option 3: Web Scrapers</b><br>
@@ -281,10 +281,10 @@ name: "firsthand"
 				Once we figured out how we would acquire inventory info, we moved on to designing the user experience.
 			</p>
 			<p>
-				We began by taking a look at existing services like Instacart, Doordash, Uber Eats, and Postmates to gather inspirations. Most of them had similar flows that began with prompting the user for her delivery address so the service would know which stores and restaurants to show the user.
+				We began by taking a look at existing services like Instacart, Doordash, and Postmates to gather inspirations. They all had similar flows that began with prompting the user for her delivery address so the service would know which stores and restaurants to show the user.
 			</p>
 			<p>
-				Since my co-founder and I would be the ones making the deliveries, in order to make the MVP feasible, we decided to limit our launch to the Stanford campus and surrounding Palo Alto areas. This simplified our user experience since we could begin directly with the shopping experience instead of promting the user for her delivery address.
+				Since my co-founder and I would be making the deliveries, we decided to limit our launch to the Stanford campus and surrounding Palo Alto areas in order to make the MVP feasible. This simplified our user experience since we could begin directly with the shopping experience instead of promting the user for her delivery address.
 			</p>
 			<p>
 				From there, we distilled the service into 5 main user experiences:
@@ -454,10 +454,10 @@ name: "firsthand"
 	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12">
 			<p>
-				We created basic wireframes to map out the user experience, focusing on the two primary actions a user could take on our site: 1. adding an item to a try-on bag and 2. checking out. We designed the service so that these actions were accessible with at most two clicks from any page. For adding a product, we placed a product search bar at the top of every page and for checking out we placed a prominent checkout button in the “Try-on Bag” side drawer.
+				We created basic wireframes to map out the user experience, focusing on the two primary actions a user could take on our site: 1. adding an item to a try-on bag and 2. checking out. We designed the service such that these actions were accessible with at most two clicks from any page. For adding a product, we placed a product search bar at the top of every page and for checking out we placed a prominent checkout button in the “Try-on Bag” side drawer.
 			</p>
 			<p>
-				We finalized our wireframes with a clickable prototype that we had friends and family test for basic usability and cohesiveness.
+				We finalized our wireframes into two clickable prototypes, one for new users and one for existing users, and had friends and family test for basic usability and cohesiveness.
 			</p>
 		</div>
 	</div>
@@ -467,18 +467,18 @@ name: "firsthand"
 	<div class="container">
 		<div class="row container-vertical-padding">
 			<div class="offset-lg-1 col-lg-10 col-md-12">
-				<video class="width-one-hundred" controls loop>
+				<video class="width-one-hundred" controls>
 				 	<source src="/videos/firsthand-wireframe-new-user.mp4" type="video/mp4">
 					Aw man! Looks like your browser doesn't support HTML5 video which means you can't see my super awesome video. Try opening this page in a Google Chrome browser instead!
 				</video>
 				<p class="text-align-center" style="margin-top: 1em;">
-					New User Checkout Flow
+					New User Flow
 				</p>
 			</div>
 		</div>
 		<div class="row container-vertical-padding-bottom">
 			<div class="offset-lg-1 col-lg-10 col-md-12">
-				<video class="width-one-hundred" controls loop>
+				<video class="width-one-hundred" controls>
 				 	<source src="/videos/firsthand-wireframe-existing-user.mp4" type="video/mp4">
 					Aw man! Looks like your browser doesn't support HTML5 video which means you can't see my super awesome video. Try opening this page in a Google Chrome browser instead!
 				</video>
@@ -520,143 +520,157 @@ name: "firsthand"
 			<div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 				<img 
 					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
 					src="/images/firsthand/firsthand-style-guide.png"
 					alt="Firsthand Style Guide"
-					data-zoom-target="/images/firsthand/firsthand-style-guide.png"
 				>
 			</div>
 			<div class="col-6">
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-homepage-01-lg.png"
-					alt="Homepage"
-					data-zoom-target="/images/firsthand/firsthand-mock-homepage-01-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-create-account-05-lg.png"
-					alt="Create Account"
-					data-zoom-target="/images/firsthand/firsthand-mock-create-account-05-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-onboard-delivery-time-1-07-lg.png"
-					alt="Delivery Time 1"
-					data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-time-1-07-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-onboard-payment-10-lg.png"
-					alt="Payment"
-					data-zoom-target="/images/firsthand/firsthand-mock-onboard-payment-10-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-checkout-11-lg.png"
-					alt="Checkout"
-					data-zoom-target="/images/firsthand/firsthand-mock-checkout-11-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-account-settings-13-lg.png"
-					alt="Account Settings"
-					data-zoom-target="/images/firsthand/firsthand-mock-account-settings-13-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-pick-up-time-15-lg.png"
-					alt="Pick Up Time"
-					data-zoom-target="/images/firsthand/firsthand-mock-pick-up-time-15-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
+				<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-homepage-01-lg.png"
+						alt="Homepage"
+						data-zoom-target="/images/firsthand/firsthand-mock-homepage-01-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-create-account-05-lg.png"
+						alt="Create Account"
+						data-zoom-target="/images/firsthand/firsthand-mock-create-account-05-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-onboard-delivery-time-1-07-lg.png"
+						alt="Delivery Time 1"
+						data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-time-1-07-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-onboard-payment-10-lg.png"
+						alt="Payment"
+						data-zoom-target="/images/firsthand/firsthand-mock-onboard-payment-10-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-checkout-11-lg.png"
+						alt="Checkout"
+						data-zoom-target="/images/firsthand/firsthand-mock-checkout-11-xxl.png"
+					>
+				</div>					
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-account-settings-13-lg.png"
+						alt="Account Settings"
+						data-zoom-target="/images/firsthand/firsthand-mock-account-settings-13-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-pick-up-time-15-lg.png"
+						alt="Pick Up Time"
+						data-zoom-target="/images/firsthand/firsthand-mock-pick-up-time-15-xxl.png"
+					>
+				</div>						
 			</div>
 			<div class="col-6">
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-product-view-02-lg.png"
-					alt="Product View"
-					data-zoom-target="/images/firsthand/firsthand-mock-product-view-02-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-product-view-oos-03-lg.png"
-					alt="Product View Out of Stock"
-					data-zoom-target="/images/firsthand/firsthand-mock-product-view-oos-03-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-product-confirmation-04-lg.png"
-					alt="Product Confirmation"
-					data-zoom-target="/images/firsthand/firsthand-mock-product-confirmation-04-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-sign-in-06-lg.png"
-					alt="Sign In"
-					data-zoom-target="/images/firsthand/firsthand-mock-sign-in-06-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-onboard-delivery-time-2-08-lg.png"
-					alt="Delivery Time 2"
-					data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-time-1-08-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-onboard-delivery-address-09-lg.png"
-					alt="Delivery Address"
-					data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-address-09-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-account-your-orders-12-lg.png"
-					alt="Account Orders"
-					data-zoom-target="/images/firsthand/firsthand-mock-account-your-orders-12-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-return-items-14-lg.png"
-					alt="Return items"
-					data-zoom-target="/images/firsthand/firsthand-mock-return-items-14-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
-				<img 
-					class="img-shadow-dark img-fluid img-group-margin-btm-equal"
-					id="zoom-default"
-					src="/images/firsthand/firsthand-mock-return-items-checkout-16-lg.png"
-					alt="Return Items Checkout"
-					data-zoom-target="/images/firsthand/firsthand-mock-return-items-checkout-16-xxl.png"
-					data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600"
-				>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-product-view-02-lg.png"
+						alt="Product View"
+						data-zoom-target="/images/firsthand/firsthand-mock-product-view-02-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-product-view-oos-03-lg.png"
+						alt="Product View Out of Stock"
+						data-zoom-target="/images/firsthand/firsthand-mock-product-view-oos-03-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-product-confirmation-04-lg.png"
+						alt="Product Confirmation"
+						data-zoom-target="/images/firsthand/firsthand-mock-product-confirmation-04-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-sign-in-06-lg.png"
+						alt="Sign In"
+						data-zoom-target="/images/firsthand/firsthand-mock-sign-in-06-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-onboard-delivery-time-2-08-lg.png"
+						alt="Delivery Time 2"
+						data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-time-1-08-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-onboard-delivery-address-09-lg.png"
+						alt="Delivery Address"
+						data-zoom-target="/images/firsthand/firsthand-mock-onboard-delivery-address-09-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-account-your-orders-12-lg.png"
+						alt="Account Orders"
+						data-zoom-target="/images/firsthand/firsthand-mock-account-your-orders-12-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-return-items-14-lg.png"
+						alt="Return items"
+						data-zoom-target="/images/firsthand/firsthand-mock-return-items-14-xxl.png"
+					>
+				</div>
+				<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+					<img 
+						class="img-shadow-dark img-fluid img-group-margin-btm-equal"
+						id="zoom-default"
+						src="/images/firsthand/firsthand-mock-return-items-checkout-16-lg.png"
+						alt="Return Items Checkout"
+						data-zoom-target="/images/firsthand/firsthand-mock-return-items-checkout-16-xxl.png"
+					>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -675,7 +689,7 @@ name: "firsthand"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				There are over 125 million U.S. smarphone users, 62% of which have made purchases online using their mobile device in 2017. Depsite our time limitations, building a mobile responsive website was an obvious priority. According to Google Analytics, 43% of our total web traffic ended up coming from users on mobile devices.
+				There are over 125 million U.S. smarphone users, 62% of which have made purchases online using their mobile device in 2017. Depsite our time limitations, building a mobile responsive website was an obvious priority. According to Google Analytics, 37% of our total web traffic ended up coming from users on mobile devices.
 			</p>
 		</div>
 	</div>

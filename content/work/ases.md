@@ -118,16 +118,6 @@ name: "ases"
 	</div>
 </div>
 
-<!-- <div class="container-vertical-margin viewport-width no-horizontal-margins cool-gray-background-color">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<img class="img-fluid img-group-margin-btm" src="/images/ases-colors-breakdown.png" alt="ASES Colors Breakdown">
-			</div>
-		</div>
-	</div>
-</div> -->
-
 <div class="viewport-dimensions display-flex align-item-center">
 	<div class="container">
 		<div class="row">
@@ -157,11 +147,11 @@ name: "ases"
 <div class="container-vertical-padding viewport-width no-horizontal-margins cool-gray-background-color">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
-				<img class="img-fluid img-group-margin-btm img-shadow-dark" id="zoom-default" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600" src="/images/ases/ases-website-xxl.jpg" alt="ASES Website Gradient">
+			<div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+				<img class="img-fluid img-group-margin-btm img-shadow-dark" id="zoom-default" src="/images/ases/ases-website-xxl.jpg" alt="ASES Website Gradient">
 			</div>
-			<div class="col-lg-6">
-				<img class="img-fluid img-group-margin-btm img-shadow-dark" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600" id="zoom-default" src="/images/ases/ases-facebook-xxl.jpg" alt="ASES Facebook Gradient">
+			<div class="col-lg-6" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="600" >
+				<img class="img-fluid img-group-margin-btm img-shadow-dark" data-aos="fade-up" id="zoom-default" src="/images/ases/ases-facebook-xxl.jpg" alt="ASES Facebook Gradient">
 			</div>
 		</div>
 	</div>
