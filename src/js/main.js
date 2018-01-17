@@ -1,8 +1,9 @@
 $(window).on('load', function(){
 	// Animate loader off screen
-	$("#loader").fadeOut();
+	$("#loader").fadeOut("slow");
 	// Fade in on Pageload
 	$(function() {
+		$('body').css("overflow-y", "scroll")
 	    $('#body-container').removeClass('fade-out');
 	});
 });
@@ -176,7 +177,14 @@ $( document ).ready(function() {
 
 	$('#nav-link-one').click(function() {
 		toggleNavMenu();
-		$.scrollify.move(1);
+		if ($.scrollify.isDisabled()) {
+			$.scrollify.enable();
+			$.scrollify.move(1);
+			$.scrollify.disable();
+		} else {
+			$.scrollify.move(1);
+		}
+		
 		
 	});
 	$('#nav-link-two').click(function() {
