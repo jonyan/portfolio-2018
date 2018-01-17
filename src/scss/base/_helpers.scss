@@ -165,7 +165,7 @@
 
 
 .justify-content-flex-start-md {
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-down(md) {
 		display: flex;
 		justify-content: flex-start;
 	}

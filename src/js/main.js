@@ -68,6 +68,12 @@ $( document ).ready(function() {
 
 	console.log( "ready!" );
 
+	// About Page Code
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+		$('#home-btn').css("color", "white");
+		$('#bar1').css("background-color", "white");
+	    $('#bar2').css("background-color", "white");
+	}
 
 
 	// Scroll Code
@@ -80,6 +86,9 @@ $( document ).ready(function() {
         	$('#bar1').css("background-color", "white");
 	        $('#bar2').css("background-color", "white");
         }
+	} else if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+		$('#bar1').css("background-color", "white");
+        $('#bar2').css("background-color", "white");
 	} else {
 		$('#bar1').css("background-color", "#333333");
         $('#bar2').css("background-color", "#333333");
@@ -238,6 +247,7 @@ function enableScroll() {
 		$('body').css("overflow-y", "scroll");
 	} else {
 		$.scrollify.enable();
+		$('body').css("overflow-y", "scroll");
 	}
 }
 
@@ -251,10 +261,17 @@ function hamburgerMenuAnimation() {
 	$('#bar2').toggleClass("active");
 }
 
+function homeBtnAnimation() {
+	$('#home-btn').css("color", "#333333"); 
+}
+
 function closeNavMenu() {
-	hamburgerMenuAnimation()
+	hamburgerMenuAnimation();
 	resetNavAnimations();
 	enableScroll();
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+		$('#home-btn').css("color", "#ffffff");
+	}
 	navMenuOpen = false;
 	menuBtnIsX = true;
 	$(function () {
@@ -267,7 +284,7 @@ function closeNavMenu() {
 	       opacity: 0
 	    }, { duration: 500, queue: false }, fadeNavMenuOut());
 	    $('#nav-overlay').css("display", "none");
-	    $('#nav-home-btn').show()
+	    
 	});
 }
 
@@ -275,11 +292,19 @@ function openNavMenu() {
 	hamburgerMenuAnimation();
 	resetNavAnimations();
 	disableScroll();
-	navMenuOpen = true;
-	$('#nav-overlay').css({"top": $(document).scrollTop(), "display": "inline"});
 	if ($(document).scrollTop() == 0 && top.location.pathname != '/') {
 		$('#nav-home-btn').hide(0);
+	} else {
+		$('#nav-home-btn').show()
 	}
+	navMenuOpen = true;
+	$('#nav-overlay').css({"top": $(document).scrollTop(), "display": "inline"});
+	
+
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+		$('#home-btn').css("color", "#333333");
+	}
+
 
 	$(function() {
 	    $('#nav-overlay').animate({
