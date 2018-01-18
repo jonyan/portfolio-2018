@@ -41,14 +41,14 @@ gulp.task("js", function () {
 })
 
 // Hash fonts
-// gulp.task("fonts", function () {
-//     del(["static/fonts/**/*"])
-//     gulp.src("src/fonts/**/*")
-//         .pipe(hash())
-//         .pipe(gulp.dest("static/fonts"))
-//         .pipe(hash.manifest("hash.json"))
-//         .pipe(gulp.dest("data/fonts"))
-// })
+gulp.task("fonts", function () {
+    del(["static/fonts/**/*"])
+    gulp.src("src/fonts/**/*")
+        .pipe(hash())
+        .pipe(gulp.dest("static/fonts"))
+        .pipe(hash.manifest("hash.json"))
+        .pipe(gulp.dest("data/fonts"))
+})
 
 // Watch asset folder for changes
 gulp.task("watch", ["scss", "js"], function () {

@@ -3,9 +3,6 @@ title: "Firsthand Delivery"
 type: "Interactive"
 description: "Designing an on-demand retail delivery service."
 date: "2012-08-01"
-
-name: "firsthand"
-
 ---
 
 <div class="container">
@@ -851,6 +848,31 @@ name: "firsthand"
 			<p>
 				Our number one takeaway from the results of this project was our repeat customer percentage of 56%. This combined with the positive feedback we received from users shows that there is clearly a real pain point among consumers that our service solved. With the appropriate resources and partnerships, we see this becoming a valuable service that helps consumers shop more conveniently and efficiently and that helps brick and mortar retailers capture more sales and appeal to a digital generation. While we are no longer delivering try-on bags, you can check out the service at <a class="footer-link" href="https://www.tryfirsthand.com/" rel="noopener noreferrer" target="_blank">www.tryfirsthand.com</a>.
 			</p>
+		</div>
+	</div>
+</div>
+
+<div class="viewport-width no-horizontal-margins display-flex align-item-center background-image" id="footer-canvas" style="height: 56vh;">
+	<div class="footer-bg-image" id="home-canvas-three-bg-image-chair-shelf"></div>
+  	<div class="footer-bg-image" id="home-canvas-two-bg-image-ases"></div>
+  	<div class="container">
+	    <div class="row col-reverse-md ">
+		    <div class="col-lg-6 col-md-12 text-align-center-md justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-two-bg-image-">
+		        <a name="ases" class="project-link" href="/work/ases">
+		        	<div data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		           		<span class="subtitle footer-canvas-project-header">PREVIOUS</span>
+		            	<h3 class="footer-canvas-project-name">ASES Rebrand</h3>
+		          	</div>
+		        </a>
+		    </div>
+		    <div class="col-lg-6 col-md-12 text-align-right-lg text-align-center-md justify-content-flex-end-lg justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-three-bg-image-">
+		        <a name="chair-shelf" class="project-link" href="/side-projects/chair-shelf">
+		        	<div data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		            	<span class="subtitle footer-canvas-project-header">NEXT</span>
+		            	<h3 class="footer-canvas-project-name">Chair Shelf</h3>
+		        	</div>
+		        </a>
+		    </div>
 		</div>
 	</div>
 </div>

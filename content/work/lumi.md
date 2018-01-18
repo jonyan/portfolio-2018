@@ -4,9 +4,6 @@ type: "Interaction"
 description: "A gesture controlled smart mirror."
 date: "2016-03-01"
 thumbnail: "ases-home-tile.jpg"
-
-name: "lumi"
-
 ---
 
 <div class="container">
@@ -721,6 +718,31 @@ name: "lumi"
 					</div>	
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="viewport-width no-horizontal-margins display-flex align-item-center background-image" id="footer-canvas" style="height: 56vh;">
+	<div class="footer-bg-image" id="home-canvas-two-bg-image-ases"></div>
+  	<div class="footer-bg-image" id="home-canvas-two-bg-image-firsthand"></div>
+  	<div class="container">
+	    <div class="row col-reverse-md ">
+		    <div class="col-lg-6 col-md-12 text-align-center-md justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-two-bg-image-">
+		        <a name="firsthand" class="project-link" href="/work/firsthand">
+		        	<div data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		           		<span class="subtitle footer-canvas-project-header">PREVIOUS</span>
+		            	<h3 class="footer-canvas-project-name">Firsthand Delivery</h3>
+		          	</div>
+		        </a>
+		    </div>
+		    <div class="col-lg-6 col-md-12 text-align-right-lg text-align-center-md justify-content-flex-end-lg justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-two-bg-image-">
+		        <a name="ases" class="project-link" href="/work/ases">
+		        	<div data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+		            	<span class="subtitle footer-canvas-project-header">NEXT</span>
+		            	<h3 class="footer-canvas-project-name">ASES Rebrand</h3>
+		        	</div>
+		        </a>
+		    </div>
 		</div>
 	</div>
 </div>

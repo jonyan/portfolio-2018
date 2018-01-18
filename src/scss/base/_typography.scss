@@ -83,6 +83,10 @@ b {
 	font-family: 'akkurat-bold';
 }
 
+i {
+	font-family: 'akkurat-light-italic';
+}
+
 .subtitle {
 	text-transform: uppercase;
 	@extend .bold;
@@ -93,6 +97,10 @@ b {
   		font-size: 15px;
 	}
 
+}
+
+.light-italic {
+	font-family: 'akkurat-light-italic';
 }
 
 .bold {

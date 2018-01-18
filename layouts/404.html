@@ -1,7 +1,25 @@
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
-      </div>
-    </main>
-{{ end }}
+{{ define "main" }}
+	<script>$('#body-container').addClass(' fade-out');</script>
+	<div id="four-oh-four-page">
+		<div class="container container-vertical-padding" id="about-page-container">
+			<div class="row">
+				<div class="offset-lg-3 col-lg-6 white-text-color text-align-center">
+					<h1 class="black-background-text">404</h1>
+					<h2 class="tertiary-text-color black-background-text">There's nothing here.</h2>
+					<br>
+					<p class="black-background-text">
+						Looks like you've found a page that doesn't exist. No big deal.
+					</p>
+					<p>
+						<a class="footer-link-inverse-colors" href="{{ "/" | relURL }}">Just click here to go home!</a>
+					</p>
+				</div>
+				<div class="offset-lg-1 col-lg-6 white-text-color">
+					
+				</div>
+			</div>
+          </div>
+		</div>
+	</div>
+
+{{end}}

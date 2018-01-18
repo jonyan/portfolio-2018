@@ -70,7 +70,7 @@ $( document ).ready(function() {
 	console.log( "ready!" );
 
 	// About Page Code
-	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "white");
 		$('#bar1').css("background-color", "white");
 	    $('#bar2').css("background-color", "white");
@@ -87,7 +87,7 @@ $( document ).ready(function() {
         	$('#bar1').css("background-color", "white");
 	        $('#bar2').css("background-color", "white");
         }
-	} else if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+	} else if (top.location.pathname === '/about/' || top.location.pathname === '/contact/' || top.location.pathname === '/404.html') {
 		$('#bar1').css("background-color", "white");
         $('#bar2').css("background-color", "white");
 	} else {
@@ -277,7 +277,7 @@ function closeNavMenu() {
 	hamburgerMenuAnimation();
 	resetNavAnimations();
 	enableScroll();
-	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "#ffffff");
 	}
 	navMenuOpen = false;
@@ -309,7 +309,7 @@ function openNavMenu() {
 	$('#nav-overlay').css({"top": $(document).scrollTop(), "display": "inline"});
 	
 
-	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/') {
+	if (top.location.pathname === '/about/' || top.location.pathname === '/contact/' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "#333333");
 	}
 

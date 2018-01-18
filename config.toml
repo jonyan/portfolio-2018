@@ -1,4 +1,5 @@
-baseURL = "http://blog.hugoexample.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Portfolio"
 canonifyURLs = true
+publishDir = "docs"

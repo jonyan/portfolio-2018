@@ -241,27 +241,17 @@
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
 
-#home-canvas-three-bg-image-ases {
+#home-canvas-three-bg-image-daily-ui {
 	background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url('../images/ases/ases-cover-xxl.jpg') center / cover no-repeat;
+    url('../images/daily-ui/daily-ui-cover-xxl.png') center / cover no-repeat;
 	opacity: 0;
 	transition: opacity .5s;
 }
 
-#home-canvas-three-bg-image-firsthand {
-	background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/firsthand/firsthand-cover-xxl.jpg') center / cover no-repeat;
-	opacity: 0;
-	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
-}
 
 .footer-link {
 	color: $secondary-text-color !important;
@@ -316,6 +306,11 @@
 	position: relative;
 	text-decoration: none !important;
 
+}
+
+.footer-link-inverse-colors::selection {
+  background: white; /* WebKit/Blink Browsers */
+  color: $body-color;
 }
 
 .footer-link-inverse-colors:hover {

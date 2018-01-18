@@ -30,3 +30,14 @@
 	font-weight: light;
   	font-style: normal;
 }
+
+@font-face {
+	font-family: 'akkurat-light-italic';
+	src: url('../fonts/Akkurat-LightItalic.eot');
+	src: 	url('../fonts/Akkurat-LightItalic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Akkurat-LightItalic.woff') format('woff'),
+			url('../fonts/Akkurat-LightItalic.ttf') format('truetype'),
+			url('../fonts/Akkura-LightItalic.svg#Akkurat-LightItalic') format('svg');
+	font-weight: light;
+  	font-style: italic;
+}
