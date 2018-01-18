@@ -55,14 +55,11 @@ function isLandscape() {
   ]
 
 })()
-var baseURL = "jonyan.github.io/portfolio-2018/";
+var baseURL = "/";
 
 $( document ).ready(function() {
 	
-	console.log(baseURL);
 	// Detect whether on mobile browser code
-	
-
 	if(isMobile()) {
 	   setInterval(function(){ 
 			$('.cf-top').toggleClass("cf-top-hover-mobile");
@@ -70,10 +67,8 @@ $( document ).ready(function() {
 		}, 1500);
 	}
 
-	console.log( "ready!" );
-
 	// About Page Code
-	if (top.location.pathname === baseURL + '/about/index.html' || top.location.pathname === baseURL + '/contact/index.html' || top.location.pathname === baseURL + '/404.html') {
+	if (top.location.pathname === '/about/index.html' || top.location.pathname === '/contact/index.html' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "white");
 		$('#bar1').css("background-color", "white");
 	    $('#bar2').css("background-color", "white");
@@ -81,7 +76,7 @@ $( document ).ready(function() {
 
 
 	// Scroll Code
-	if (top.location.pathname === baseURL + '/index.html') {
+	if (top.location.pathname === '/index.html') {
 		$('#home-btn').hide();	
         if ($(document).scrollTop() >= $('#home-canvas-two').offset().top) {
 			$('#bar1').css("background-color", "#333333");
@@ -90,7 +85,7 @@ $( document ).ready(function() {
         	$('#bar1').css("background-color", "white");
 	        $('#bar2').css("background-color", "white");
         }
-	} else if (top.location.pathname === baseURL + '/about/index.html' || top.location.pathname === baseURL + '/contact/index.html' || top.location.pathname === baseURL + '/404.html') {
+	} else if (top.location.pathname === '/about/index.html' || top.location.pathname === '/contact/index.html' || top.location.pathname === '/404.html') {
 		$('#bar1').css("background-color", "white");
         $('#bar2').css("background-color", "white");
 	} else {
@@ -99,7 +94,7 @@ $( document ).ready(function() {
 	}
 
 	$(document).scroll(function() {
-		if (top.location.pathname === baseURL + '/index.html') {
+		if (top.location.pathname === '/index.html') {
 			if (($(document).scrollTop() + 80) >= $('#home-canvas-two').offset().top) {
 				$('#bar1').css("background-color", "#333333");
 	        	$('#bar2').css("background-color", "#333333");
@@ -280,7 +275,7 @@ function closeNavMenu() {
 	hamburgerMenuAnimation();
 	resetNavAnimations();
 	enableScroll();
-	if (top.location.pathname === baseURL + '/about/index.html' || top.location.pathname === baseURL + '/contact/index.html' || top.location.pathname === baseURL + '/404.html') {
+	if (top.location.pathname === '/about/index.html' || top.location.pathname === '/contact/index.html' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "#ffffff");
 	}
 	navMenuOpen = false;
@@ -303,7 +298,7 @@ function openNavMenu() {
 	hamburgerMenuAnimation();
 	resetNavAnimations();
 	disableScroll();
-	if ($(document).scrollTop() == 0 && top.location.pathname != baseURL + '/index.html') {
+	if ($(document).scrollTop() == 0 && top.location.pathname != '/index.html') {
 		$('#nav-home-btn').hide(0);
 	} else {
 		$('#nav-home-btn').show()
@@ -312,7 +307,7 @@ function openNavMenu() {
 	$('#nav-overlay').css({"top": $(document).scrollTop(), "display": "inline"});
 	
 
-	if (top.location.pathname === baseURL + '/about/index.html' || top.location.pathname === baseURL + '/contact/index.html' || top.location.pathname === baseURL + '/404.html') {
+	if (top.location.pathname === '/about/index.html' || top.location.pathname === '/contact/index.html' || top.location.pathname === '/404.html') {
 		$('#home-btn').css("color", "#333333");
 	}
 
