@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Portfolio</title>
+    <link>/work/</link>
+    <description>Recent content in Works on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lumi Mirror</title>
+      <link>/work/lumi/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/work/lumi/</guid>
+      <description>Senior Capstone  10 Weeks to Build a Real World Software Project    As part of the Stanford computer science major, all seniors have to spend 10 weeks building a significantly sized software project for their senior capstone. We would be evaluated on our ability to work cohesively as a team (peer reviews), individual code contributions (github review), and the project’s level of execution and completion (project fair).  Our team of 4 built the software and assembled the hardware behind Lumi, a gesture-controlled smart mirror that plays music, takes photos, and displays glanceable information like the time, the weather, and your twitter feed.</description>
+    </item>
+    
+    <item>
+      <title>ASES Rebrand</title>
+      <link>/work/ases/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/work/ases/</guid>
+      <description>The Problem  An Outdated Brand Hurts Membership    The Asia-Pacific Student Entrepreneurship Society (ASES) was founded at Stanford University in 1998 with the mission of connecting entrepreneurs between Asia and Stanford. Since then, ASES has grown rapidly, spreading to over a dozen countries and gaining significant prestige, especially internationally. As a result of this international growth, ASES’s core mission has changed, becoming more about connecting entrepreneurs globally, and not just between Asia and Stanford.</description>
+    </item>
+    
+    <item>
+      <title>Firsthand Delivery</title>
+      <link>/work/firsthand/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/work/firsthand/</guid>
+      <description>Background    On-demand food and grocery delivery startups have taken off in the last several years. However, on-demand retail delivery still seems to be almost non-existent. Firsthand Delivery was a pivot of a startup I founded in 2017 that attempts to test the value proposition of a retail delivery service. My co-founder and I gave ourselves a strict timeline of 4 weeks to build and launch a barebones MVP.</description>
+    </item>
+    
+  </channel>
+</rss>

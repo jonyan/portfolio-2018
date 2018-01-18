@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Side-projects on Portfolio</title>
+    <link>/side-projects/</link>
+    <description>Recent content in Side-projects on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/side-projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chair Shelf</title>
+      <link>/side-projects/chair-shelf/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/side-projects/chair-shelf/</guid>
+      <description>Design is Problem Finding  Does the World Need Another Chair?    “Does the world really need another chair?” This was the question my ME 203: Design and Manufacturing professor asked me after I showed him my list of final project ideas. Every year he said chairs were built in his class and as I would later learn, were sort of obsessed over in the design world. Still, he encouraged me to build a chair but challenged me to build a chair that the world needed.</description>
+    </item>
+    
+    <item>
+      <title>Daily UI</title>
+      <link>/side-projects/daily-ui/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/side-projects/daily-ui/</guid>
+      <description>Daiy UI Challenge  Designing a UI Everyday for 100 Days    The Daily UI Challenge was a fun way to create something everyday. I wanted to use this challenge as an opportunity to improve my visual design skills and experiment with various new animation and prototyping tools.  This project is still in progress and if you&#39;re interested in following along, checkout my Daily UI Instagram, @jonyandesign.      PREVIOUS Chair Shelf    NEXT Lumi Mirror       </description>
+    </item>
+    
+  </channel>
+</rss>
