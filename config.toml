@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/portfolio-2018"
 languageCode = "en-us"
 title = "Portfolio"
 canonifyURLs = true
