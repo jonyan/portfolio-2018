@@ -55,7 +55,7 @@ function isLandscape() {
   ]
 
 })()
-var baseURL = "/Users/jonathan/Desktop/portfolio-2018/docs";
+var baseURL = "jonyan.github.io/portfolio-2018/";
 
 $( document ).ready(function() {
 	
