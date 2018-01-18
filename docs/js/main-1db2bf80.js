@@ -73,7 +73,7 @@ $( document ).ready(function() {
 	console.log( "ready!" );
 
 	// About Page Code
-	if (top.location.pathname === baseURL + '/about/' || top.location.pathname === baseURL + '/contact/ || top.location.pathname === baseURL + '/404.html') {
+	if (top.location.pathname === baseURL + '/about/' || top.location.pathname === baseURL + '/contact/' || top.location.pathname === baseURL + '/404.html') {
 		$('#home-btn').css("color", "white");
 		$('#bar1').css("background-color", "white");
 	    $('#bar2').css("background-color", "white");
