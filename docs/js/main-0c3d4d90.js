@@ -55,22 +55,18 @@ function isLandscape() {
   ]
 
 })()
+
 var baseURL = "/portfolio-2018";
 
 $( document ).ready(function() {
 	
-	console.log(baseURL);
 	// Detect whether on mobile browser code
-	
-
 	if(isMobile()) {
 	   setInterval(function(){ 
 			$('.cf-top').toggleClass("cf-top-hover-mobile");
 			$('.cf-top-hover-mobile').toggleClass("cf-top");
 		}, 1500);
 	}
-
-	console.log( "ready!" );
 
 	// About Page Code
 	if (top.location.pathname === baseURL + '/about/' || top.location.pathname === baseURL + '/contact/' || top.location.pathname === baseURL + '/404.html') {
@@ -81,7 +77,7 @@ $( document ).ready(function() {
 
 
 	// Scroll Code
-	if (top.location.pathname === baseURL) {
+	if (top.location.pathname === baseURL + '/') {
 		$('#home-btn').hide();	
         if ($(document).scrollTop() >= $('#home-canvas-two').offset().top) {
 			$('#bar1').css("background-color", "#333333");
@@ -99,7 +95,7 @@ $( document ).ready(function() {
 	}
 
 	$(document).scroll(function() {
-		if (top.location.pathname === baseURL) {
+		if (top.location.pathname === baseURL + '/') {
 			if (($(document).scrollTop() + 80) >= $('#home-canvas-two').offset().top) {
 				$('#bar1').css("background-color", "#333333");
 	        	$('#bar2').css("background-color", "#333333");
@@ -303,7 +299,7 @@ function openNavMenu() {
 	hamburgerMenuAnimation();
 	resetNavAnimations();
 	disableScroll();
-	if ($(document).scrollTop() == 0 && top.location.pathname != baseURL) {
+	if ($(document).scrollTop() == 0 && top.location.pathname != baseURL + '/') {
 		$('#nav-home-btn').hide(0);
 	} else {
 		$('#nav-home-btn').show()
