@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "file:///Users/jonathan/Desktop/portfolio-2018/docs"
 languageCode = "en-us"
 title = "Portfolio"
 canonifyURLs = true
