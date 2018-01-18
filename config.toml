@@ -1,4 +1,4 @@
-baseURL = "file:///Users/jonathan/Desktop/portfolio-2018/docs"
+baseURL = "jonyan.github.io/portfolio-2018/"
 languageCode = "en-us"
 title = "Portfolio"
 canonifyURLs = true
