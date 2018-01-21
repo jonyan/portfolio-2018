@@ -1,5 +1,6 @@
-baseURL = "/portfolio-2018"
+baseURL = "/"
 languageCode = "en-us"
 title = "Portfolio"
 canonifyURLs = true
 publishDir = "docs"
+googleAnalytics = "UA-48463521-3"

@@ -1,0 +1,28 @@
+.case-study-header {
+	margin-top: 10rem;
+	margin-bottom: 4rem;
+}
+
+.case-study-bg-image {
+	background-color: $cool-gray;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 56.25%;
+	@include media-breakpoint-up(xl) {
+		height: 100vh;
+	}
+}
+
+.header-margin-bottom {
+	margin-bottom: .5em;
+}
+
+.case-overview-container {
+	right: 0;
+	left: 0;
+	background-color: $cool-gray;
+	
+}
+
+

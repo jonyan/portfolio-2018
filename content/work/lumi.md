@@ -713,7 +713,7 @@ thumbnail: "ases-home-tile.jpg"
 						</h3>
 						<br>
 						<p>
-							<i>Built in collaboration with Dan Guo, Brian Yang, and Sloane Sturzenegger (from left to right).</i>
+							Built in collaboration with Dan Guo, Brian Yang, and Sloane Sturzenegger (from left to right).
 						</p>
 					</div>	
 				</div>

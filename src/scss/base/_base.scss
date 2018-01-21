@@ -19,19 +19,19 @@ li {
 }
 
 ::-moz-selection {
-  background: white; /* Gecko Browsers */
-  color: $body-color;
+  background: $body-color; /* Gecko Browsers */
+  color: white;
 }
 
 
 .black-background-text::selection {
-  background: white; /* WebKit/Blink Browsers */
+  background: rgba(250,250,250,0.99); /* WebKit/Blink Browsers */
   color: $body-color;
 }
 
 
 .black-background-text::-moz-selection {
-  background: white; /* Gecko Browsers */
+  background: rgba(250,250,250,0.99); /* Gecko Browsers */
   color: $body-color;
 }
 
@@ -48,4 +48,8 @@ ol li {
 .horizontal-rule {
   height: 1px;
   background-color: #d8d8d8;
+}
+
+img {
+  background-color: $cool-gray;
 }

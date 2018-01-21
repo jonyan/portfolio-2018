@@ -705,7 +705,7 @@ date: "2012-08-01"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				At the end of the 4 weeks, we successfully launched our MVP (https://www.tryfirsthand.com/). From the outset we knew 4 weeks to design and build an entire product was an extremely aggressive timeline. However, through a combination of clever hacking, design and implementation tradeoffs, and coordinated teamwork, we not only stayed within the timeline, but also delivered a sophisticated and polished end product. In addition to the consumer facing web-app, backend, and web scrapers, we also built an internal dashboard to enable us to update delivery status and send automated email notifications and receipts to users.
+				At the end of the 4 weeks, we successfully launched our MVP. From the outset we knew 4 weeks to design and build an entire product was an extremely aggressive timeline. However, through a combination of clever hacking, design and implementation tradeoffs, and coordinated teamwork, we not only stayed within the timeline, but also delivered a sophisticated and polished end product. In addition to the consumer facing web-app, backend, and web scrapers, we also built an internal dashboard to enable us to update delivery status and send automated email notifications and receipts to users.
 			</p>
 			<p>
 				After launching, to acquire users, we flyered around Stanford University campus and launched a series of FB ads.
@@ -810,7 +810,7 @@ date: "2012-08-01"
 	<div class="row container-vertical-margin">
 		<div class="offset-lg-6 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				Online retailers see a 30% return rate whereas brick and mortar retailers see an 8.89% return rate. Ours fell in between, at 16.67%. This makes sense as the point of our service was to make it easier to both buy <b><i>and</i></b> return items.
+				Online retailers see a 30% return rate whereas brick and mortar retailers see an 8.89% return rate. Ours fell in between, at 16.67%. This makes sense as the point of our service was to make it easier to both buy <b>and</b> return items.
 			<p>
 				While 60 sales over the course of 3 weeks probably doesn’t make a huge dent in a retailer’s business, given the number of repeat orders, we do think this service solves a real pain point among users and has the potential to scale further. To move beyond a project and into a real business, formal partnerships with retailers would obviously be required to turn a profit. Ideally the retailer would cover the cost of delivery to the customer as well as a commission on the sale.
 			</p>
@@ -847,6 +847,9 @@ date: "2012-08-01"
 			</p>
 			<p>
 				Our number one takeaway from the results of this project was our repeat customer percentage of 56%. This combined with the positive feedback we received from users shows that there is clearly a real pain point among consumers that our service solved. With the appropriate resources and partnerships, we see this becoming a valuable service that helps consumers shop more conveniently and efficiently and that helps brick and mortar retailers capture more sales and appeal to a digital generation. While we are no longer delivering try-on bags, you can check out the service at <a class="footer-link" href="https://www.tryfirsthand.com/" rel="noopener noreferrer" target="_blank">www.tryfirsthand.com</a>.
+			</p>
+			<p>
+				Built in collaboration with <a class="footer-link" href="http://www.brianliyang.com/" rel="noopener noreferrer" target="_blank">Brian Yang</a>.
 			</p>
 		</div>
 	</div>

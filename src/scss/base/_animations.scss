@@ -1,0 +1,16 @@
+
+// Animation code to fade in page on load
+body {
+	overflow-y: hidden;
+}
+
+#body-container {
+    opacity: 1;
+    transition: 1s opacity;
+    overflow-y: scroll;
+}
+#body-container.fade-out {
+    opacity: 0;
+    transition: none;
+    overflow-y: hidden;
+}

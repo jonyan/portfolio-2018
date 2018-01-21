@@ -95,7 +95,7 @@ thumbnail: "ases-home-tile.jpg"
 			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img class="img-fluid img-group-margin-btm" src="/images/ases/ases-blue-new-logo-xxl.png" alt="ASES Logo on Blue">
 			</div>
-			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
+			<div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-once="true" data-aos-duration="600">
 				<img class="img-fluid img-group-margin-btm" src="/images/ases/ases-image-new-logo-lg.jpg" alt="ASES Logo on Image">
 			</div>
 		</div>
@@ -147,7 +147,7 @@ thumbnail: "ases-home-tile.jpg"
 			<div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 				<img class="img-fluid img-group-margin-btm img-shadow-dark" id="zoom-default" src="/images/ases/ases-website-xxl.jpg" alt="ASES Website Gradient">
 			</div>
-			<div class="col-lg-6" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="600" >
+			<div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-delay="200" data-aos-duration="600" >
 				<img class="img-fluid img-group-margin-btm img-shadow-dark" data-aos="fade-up" id="zoom-default" src="/images/ases/ases-facebook-xxl.jpg" alt="ASES Facebook Gradient">
 			</div>
 		</div>
@@ -338,7 +338,7 @@ thumbnail: "ases-home-tile.jpg"
 						</h4>
 						<br>
 						<p>
-							<i>You can follow ASES on Facebook, Twitter, and Instagram at @ASESStanford.</i>
+							You can follow ASES on Facebook, Twitter, and Instagram at @ASESStanford.
 						</p>
 					</div>	
 				</div>

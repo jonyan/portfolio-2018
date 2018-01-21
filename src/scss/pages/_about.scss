@@ -1,0 +1,22 @@
+#about-page {
+	background-color: black;
+	min-height: 100vh;
+}
+
+#about-page-container {
+	padding-top: 15rem;
+}
+
+#about-image {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	@include media-breakpoint-up(lg) {
+		@include div-same-size-as-background-img($baseURL + "/images/about/headshot-portrait.jpg", 1.503);
+	}
+
+	@include media-breakpoint-down(md) {
+		@include div-same-size-as-background-img($baseURL + "/images/about/headshot-landscape.jpg", 0.75);
+	}
+	
+}
+

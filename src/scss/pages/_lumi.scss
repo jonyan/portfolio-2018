@@ -1,0 +1,30 @@
+#lumi-case-study-bg-image {
+	background: $cool-gray url('../images/lumi/lumi-cover-xxl.jpg') center / cover no-repeat;
+}
+
+#lumi-footer {
+	color: white;
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../images/lumi/lumi-project-fair.jpg') center / cover no-repeat;
+}
+
+// #stock-ticker-image {
+// 	background: url("/images/lumi/lumi-stock-xxl.png");
+// 	background-size: contain;
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	height: 1200px;
+// }
+
+// #stock-ticker-image:hover {
+// 	background: url("/images/lumi/lumi-stock-final-xxl.png");
+// 	background-size: contain;
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	height: 1200px;
+
+// }
