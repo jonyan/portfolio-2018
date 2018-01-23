@@ -627,22 +627,9 @@ date: "2015-12-01"
 			<p>
 				If you’re looking to build your own Chair Shelf, shoot me an <a class="footer-link" href="mailto:jonjyan@gmail.com?Subject=Chair%20Shelf" rel="noopener noreferrer" target="_top">email</a> and I’d be happy to send over CAD files and a complete bill of materials needed to construct one.
 			</p>
-		</div>
-	</div>
-</div>
-
-<div class="container-vertical-margin-top">
-	<div class="viewport-dimensions ">
-		<div class="cool-gray-texture display-flex align-item-center text-align-center">
-			<div class="container">
-				<div class="row">
-					<div class="offset-lg-3 col-lg-6 col-12-md">
-						<h3>
-							Special thanks to Professor David Beach and TA David Bordow.
-						</h3>
-					</div>	
-				</div>
-			</div>
+			<p>
+				Chair Shelf received an A in ME 203. Special thanks to Professor David Beach and TA David Bordow.
+			</p>
 		</div>
 	</div>
 </div>

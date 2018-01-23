@@ -3,7 +3,6 @@ title: "ASES Rebrand"
 type: "Identity"
 description: "Rebranding a global collegiate entrepreneurship society."
 date: "2014-08-01"
-thumbnail: "ases-home-tile.jpg"
 ---
 
 

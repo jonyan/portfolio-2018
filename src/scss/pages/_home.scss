@@ -184,17 +184,6 @@
 	transition: opacity .5s;
 }
 
-#home-canvas-two-bg-image-ases {
-	background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/ases/ases-cover-xxl.jpg') center / cover no-repeat;
-	opacity: 0;
-	transition: opacity .5s;
-}
-
 #home-canvas-two-bg-image-firsthand {
 	background: 
     linear-gradient(
@@ -206,6 +195,16 @@
 	transition: opacity .35s cubic-bezier(.39,.575,.565,1);
 }
 
+#home-canvas-two-bg-image-yahoo {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/yahoo/yahoo-cover-xxl.jpg') center / cover no-repeat;
+	opacity: 0;
+	transition: opacity .5s;
+}
 
 #home-canvas-two-project-name {
 	color: $body-color;
@@ -229,6 +228,16 @@
 	background-color: $cool-gray
 }
 
+#home-canvas-three-bg-image-ases {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/ases/ases-cover-xxl.jpg') center / cover no-repeat;
+	opacity: 0;
+	transition: opacity .5s;
+}
 
 #home-canvas-three-bg-image-chair-shelf {
 	background: 

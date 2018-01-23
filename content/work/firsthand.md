@@ -857,10 +857,10 @@ date: "2012-08-01"
 
 <div class="viewport-width no-horizontal-margins display-flex align-item-center background-image" id="footer-canvas" style="height: 56vh;">
 	<div class="footer-bg-image" id="home-canvas-three-bg-image-chair-shelf"></div>
-  	<div class="footer-bg-image" id="home-canvas-two-bg-image-ases"></div>
+  	<div class="footer-bg-image" id="home-canvas-three-bg-image-ases"></div>
   	<div class="container">
 	    <div class="row col-reverse-md ">
-		    <div class="col-lg-6 col-md-12 text-align-center-md justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-two-bg-image-">
+		    <div class="col-lg-6 col-md-12 text-align-center-md justify-content-center-md display-inline-flex" id="project-container" name="home-canvas-three-bg-image-">
 		        <a name="ases" class="project-link" href="/work/ases">
 		        	<div data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true" data-aos-duration="600">
 		           		<span class="subtitle footer-canvas-project-header">PREVIOUS</span>
