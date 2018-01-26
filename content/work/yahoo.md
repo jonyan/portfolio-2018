@@ -18,7 +18,7 @@ date: "2014-08-01"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				I spent the summer of my Sophomore year interning initially as a PM intern and later transitioning into a UX Intern at Yahoo, working on the Communications team under Sol Lipman. It was at Yahoo where I developed my interest in design and gained a foundational understanding of the design processes that are necessary to create products that scale to the size of Yahoo’s user base.
+				I spent the summer of my Sophomore year interning initially as a PM intern and later transitioning into a UX Intern at Yahoo, working on the Communications team under Sol Lipman. It was at Yahoo where I first developed my interest in design and gained an understanding of the industry design processes that are necessary to create useful products at scale.
 			</p>
 			<p>
 				I split my time working on two products: 1. Yahoo Groups and 2. v1 of a new home social app that my team conceived. My responsibilities primarily involved conducting user research to better understand user needs and pain points and creating wireframes to win over stakeholders within the company and collect user feedback.
@@ -65,10 +65,10 @@ date: "2014-08-01"
 		</div>
 		<div class="offset-lg-2 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				When I joined, the Groups product had not seen any meaningful updates in months, if not years. The product still had meaningful usage with millions of core daily active users, but was not by any means a popular or relevant Yahoo product. Groups was created in 2001, years before social media was really a thing (before Friendster and Myspace would be created) and our users were generally from an older generation. 
+				At the time of my internship, the Groups product had not seen any meaningful updates in months, if not years. While the product was far from being a popular or relevant product, it still had usage with several million core daily active users. Groups was created in 2001, years before social media had become widely popular (before Friendster and Myspace would be created) and our users were generally from an older generation.
 			</p>
 			<p>
-				My team was tasked with finding ways to overhaul Groups to make it a relevant social product in the context of modern social networks like Facebook and LinkedIn.
+				My team was tasked with finding ways to overhaul Groups to make it a relevant social product in the context of modern social networks like Facebook and LinkedIn without alienating our existing set of users.
 			</p>
 		</div>
 	</div>
@@ -86,19 +86,19 @@ date: "2014-08-01"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				To better understand our existing users, we held focus groups and user studies. We discovered that our users were extremely passionate about the product as they were already very familiar with it and seemed resistant to significant product changes. Their complaints mainly had to do with minor UI/UX improvements rather than new feature requests. Our users tended to not use other social networks very much because they weren’t able to figure them out and because most of the people they knew online were on Yahoo Groups.
+				To better understand our existing users, we held focus groups and conducted user studies. Yahoo Group's users were passionate about the product as it was and were clearly resistant to change. Especially because they were older and less technologically savvy, having to relearn how to use a product that already works for them would certainly frustrate them and potentially drive them away. Our users tended to not use other social networks very much because they weren’t able to figure them out and because most of the people they knew online were on Yahoo Groups. Their complaints mainly consisted of minor UI/UX improvements like a cluttered interface and difficulty in creating new groups rather than new feature requests.
 			</p>
 			<p>
-				It was clear that any radical product changes would alienate our existing user base, something Yahoo did not want to do. Instead the higher-ups decided that we would create a new, rebranded sub-Groups product and leave the existing Groups product untouched.
+				It was clear that any radical product changes would push our existing user base away. My managers decided that we would create a new, rebranded sub-Groups product and leave the existing Groups product untouched.
 			</p>
 			<p>
-				We took a step back to analyze the competitive landscape as a whole. Was there an unfulfilled need that Yahoo Groups and existing social networks didn’t currently fill?
+				We took a step back to analyze the competitive landscape as a whole. Was there an unfulfilled need that Yahoo Groups and existing social networks didn’t currently fulfill?
 			</p>
 			<p>
-				We knew that whatever we created would likely never be a mainstream social network like Facebook — not only was it not Yahoo’s brand, the network effects that exist on Facebook are what make its position so defensible. Rather than viewing this as a weakness, we embraced it as a feature. As a result of Facebook’s network effects, when you post something on Facebook, there is always the fear that the your post can be seen by people you don’t want seeing it. As much as Facebook has worked on simplifying its privacy settings, the sheer size of Facebook will always make Facebook feel like a public space online.
+				We knew that whatever we created would likely never be a mainstream social network like Facebook — not only was it not Yahoo’s brand, Facebook's strong network effects make it difficult for others to compete without significant differentiators. We realized that while it's these network effects that make Facebook so valubale and defensible, they also make Facebook feel like a very public space, something a lot of users don't like. As much as Facebook has worked on simplifying its privacy settings, the sheer size of Facebook will always make users fear that their post can be seen by people whom they don’t want seeing it. This causes Facebook timelines and profiles to turn into highlight reels, where users filter and select what gets shared.
 			</p>
 			<p>
-				A meaninfully differentated social product offering that Yahoo could deliver on began to form. Could we create a Yahoo Groups product that feels like a private space online?
+				With these observations, a meaningfully differentiated social product offering that Yahoo could deliver on began to form. Could we create a Yahoo Groups product that leverages its lack of network effects to feel like a private space online? Was there a user group that Yahoo could target that would value not having to filter and select what gets shared?
 			</p>
 		</div>
 	</div>
@@ -111,15 +111,15 @@ date: "2014-08-01"
 				Families 
 			</h2>
 			<h3 class="secondary-text-color header-margin-bottom">
-				Focusing on a Specific User Group
+				A Space for Sharing Photos
 			</h3>
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				To make this product more meaningful, we knew we had to be specific with who we were targeting and for what use case. Yahoo’s average user tended to be older, in the 35+ age range; however, older users don’t use social media like teens and twenty year olds do.
+				To make this product more meaningful, we knew we had to be specific with who we were targeting and for what use case. Yahoo’s average user tended to be older, in the 35+ age range, and doesn't use social media like teens and twenty year olds do.
 			</p>
 			<p>
-				We conducted more user interviews, and kept hearing the same story. Many of our users had families and would go on family vacations where hundreds of photos would be taken. Posting on Facebook or Instagram required filtering through and finding the best ones since those were public spaces online. There was no easy, private way for them to just share these photos online with other family members without worrying about who would see them.
+				We conducted more user interviews, and kept hearing the same story. Many of our users had families who would go on family vacations where hundreds of photos would be taken. Posting on Facebook or Instagram required filtering through and finding the best ones. There was no easy, private way for them to just share these photos online with other family members without worrying about who would see them.
 			</p>
 		</div>
 	</div>
@@ -153,10 +153,13 @@ date: "2014-08-01"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				For the time being, we decided to call this new product, “Yahoo Easy Groups.” One of the complaints we heard repeatedly during our initial focus groups was that the original Groups product was bloated with features and a cluttered UI, making it difficult to create and start new groups, especially on mobile.
+				For the time being, we called this product, “Yahoo Easy Groups.” One of the complaints we heard repeatedly during our initial focus groups was that the original Groups product was bloated with features and a cluttered UI, making it difficult to create and start new groups, especially on mobile.
 			</p>
 			<p>
 				In addition to focusing on privacy and simple photo sharing, Easy Groups focused on simplifying the UI and making it faster and simpler to create a new group on a mobile device.
+			</p>
+			<p>
+				My role involved delivering early iterations of the mobile wireframes to get buy in from stakeholders within Yahoo to move forward in this Easy Groups direction.
 			</p>
 		</div>
 	</div>
@@ -277,7 +280,7 @@ date: "2014-08-01"
 				<img 
 					class="img-shadow img-fluid img-group-margin-btm"
 					id="zoom-default"
-					src="/images/yahoo/yahoo-group-feed.png"
+					src="/images/yahoo/yahoo-feed-1.png"
 					alt="Group Feed"
 				>
 			</div>
@@ -302,24 +305,24 @@ date: "2014-08-01"
 	<div class="row container-vertical-margin">
 		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<h3 class="primary-text-color no-margin-bottom">
-				A Social App for the Household 
+				Circus
 			</h2>
 			<h3 class="secondary-text-color header-margin-bottom">
-				Designing a New Product from Scratch
+				A Social App for the Home
 			</h3>
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				My second project at Yahoo was a new social mobile app for the home conceived by my team. Similar to Yahoo Easy Groups, this app that we nicknamed “Circus” also targeted families; however, instead of a place to easily share photos, this app focused on being an internal news feed for households. 
+				My second project at Yahoo was a new social mobile app for the home conceived by my team. Similar to Yahoo Easy Groups, this app, nicknamed “Circus,” also targeted families; however, instead of a place to easily share photos, this app served as an internal news feed for households.
 			</p>
 			<p>
-				At a high level, Circus was meant to be the command center of the home – a place users could go to get updated on the status of their family members as well as their home. Apple had just launched HomeKit at the beginning of the summer and from a strategic perspective, my team wanted to take a first mover advantage in building one of the first meaningful apps with HomeKit.
+				At a high level, Circus was the command center of the home &#8212; a place users could go to get updated on the status of their family members and their physical home. Apple had just launched HomeKit at the beginning of the summer and from a strategic perspective, we wanted to take advantage of being a first mover by building one of the first meaningful apps with HomeKit.
 			</p>
 			<p>
-				We envisioned a newsfeed that could be populated with user generated and auto generated device statuses. For instance, if a household had a Ring doorbell, a status of “Doorbell Rang at 4:30 PM Today” would appear, or if the household had a smart bowl for pets, a status of “Bella ate at 6 PM Today” would appear. Additionally, if Jason, a 16 year old left to go to the movies, he could write a status of “Going to the movies with Fred. Back by 5:30 PM for dinner!” to notify his parents.
+				At its center, Circus would have a newsfeed that could be populated with user generated and auto generated device statuses. For instance, if a household had a Ring doorbell, a status of “Doorbell Rang at 4:30 PM Today” would appear, or if the household had a smart bowl for pets, a status of “Bella ate at 6 PM Today” would appear. Additionally, if Jason, a 16 year old left to go to the movies, he could write a status of “Going to the movies with Fred. Back by 5:30 PM for dinner!” to notify his parents.
 			</p>
 			<p>
-				Further, as the command center of the app, we envisioned the ability to control your smart devices from one central app. At the time, each smart device had its own app used to control it, making the experience fragmented and time consuming.
+				Further, as the command center of the home, we envisioned the ability to control your smart devices from one central app. At the time, there wasn’t a central way to control all of your smart devices, especially if they belonged to different brands. Each smart ecosystem had its own app used to control it, making the smart home experience highly fragmented and frustrating.
 			</p>
 		</div>
 	</div>
@@ -337,13 +340,46 @@ date: "2014-08-01"
 		</div>
 		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
 			<p>
-				My role focused on designing wireframes for the onboarding experience. The primary challenge with onboarding in an app like Circus is that a significant amount of onboarding is required in order for the app to be useful. Unlike with traditional social networks with existing content, Circus needs users to add devices and other members of the household to the app during onboarding before the app becomes usable.
+				My role focused on designing wireframes for the onboarding experience. The primary challenge with onboarding in an app like Circus is that a significant amount of information and number of steps are required in order for the app to begin being useful. Unlike with traditional social networks with existing content, Circus needs users to add devices and other members of the household to the app during onboarding before the app becomes usable.
 			</p>
 			<p>
-				While onboarding experiences can typically feel dry and straightforward, I focused on finding ways to make the experience of inviting members, adding devices, and granting permissions not just simple and clear but also fun and engaging. Further, I worked on designing glanceable empty states within the app to educate users and prompt them to take action.
+				I focused on finding ways to make this experience feel fun by gamifying how users “build” their household. I made sure to explain why permissions were needed and what they would be used for to increase likelihood of users granting them. Further, I worked on designing glanceable empty states within the app to educate users and prompt them to take action once past onboarding.
 			</p>
 			<p>
-				Unfortunately I can’t release images of my work on this project publicly. If you’d like to see more, feel free to email me and I can share this work privately.
+				Unfortunately I can’t release my work on this project publicly. If you’d like to see more, feel free to email me and I can share this work privately.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 horizontal-rule"></div>
+	</div>
+	<div class="row container-vertical-margin">
+		<div class="col-lg-5 col-md-12" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<h3 class="primary-text-color no-margin-bottom">
+				Learnings and Reflections
+			</h2>
+			<h3 class="secondary-text-color header-margin-bottom">
+				My First Industry Design Experience
+			</h3>
+		</div>
+		<div class="offset-lg-1 col-lg-6 col-md-12" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-duration="600">
+			<p>
+				Most of my past experiences before Yahoo were at early stage startups. Working at Yahoo gave me insights on how large companies build products, from the company culture and team structure to the processes around designing and building them.
+			</p>
+			<p>
+				First and foremost, everything at Yahoo is done with scale in mind. Before touching Sketch and Photoshop, and even before asking user centered design questions like what are the user’s goals, we must ask ourselves how this product or idea fits into Yahoo’s existing range of products, Yahoo’s brand, and how it affects Yahoo’s bottom line. Many instances throughout my internship, I would identify a user pain point during user interviews and bring it up to my manager as a potential product idea. He would respond by asking me to estimate the potential revenue solving this problem could bring Yahoo &#8212; 1 million, 10 million dollars in annual revenue? That would barely add up to a percent of a percent of Yahoo’s existing annual revenue. As part of the design process, the scale of the problems we decide to solve in addition to the scale of our solutions must be considered.
+			</p>
+			<p>
+				At a startup, you only ever think ahead the amount of time you’ve been alive for. This applies to business decisions and but also product decisions. Strategies like building minimum viable products and launching quickly help minimize your risk and give you access to valuable real user feedback and data. This allows startups to fail quickly when they’re on the wrong path and iterate to the right path with more certainty. At Yahoo, it wouldn't be as appropriate to follow these strategies to the extreme degree startups do, but these "lean" methodologies were still at the core of many of our processes.
+			</p>
+			<p>
+				During my internship, I learned formalized design processes for building rich, powerful, scalable products. I learned that putting in the time in the early stages of the design process and being disciplined with user research and wireframing can save you enormous amounts of time during later stages of the design process. Iterating and creating prototypes to test hypotheses is key to finding appropriate design solutions. Unlike with startups, rather than launching publicly, we dogfooded internally and we had the resources to bring users in for user studies.
+			</p>
+			<p>
+				Lastly, I learned about corporate structure and collaborating in and across teams within an organization. At a large company, the stakeholders you design for expands to include managers and decision makers within the company in addition to users and partners. Collaboration is invaluable and almost always leads to stronger ideas and results. My experience at Yahoo was invaluable and laid my foundation as an aspiring designer.
+			</p>
+			<p>
+				A special thanks to my manager <a class="footer-link" href="https://twitter.com/thesolster" rel="noopener noreferrer" target="_blank">Sol Lipman</a> and mentor <a class="footer-link" href="https://twitter.com/lolrubylol" rel="noopener noreferrer" target="_blank">Ruby Anaya</a>.
 			</p>
 		</div>
 	</div>
