@@ -63,16 +63,22 @@ $( document ).ready(function() {
 	  var containerZoom = [
 	    mediumZoom('#zoom-default')
 	  ]
-
 	})()
-	
-	// Detect whether on mobile browser code
+
+
+    // FadeIn/FadeOut Lumi Iterations Images
+	var lumiIterationsFadeInterval;
 	if(isMobile()) {
-	   setInterval(function(){ 
-			$('.cf-top').toggleClass("cf-top-hover-mobile");
-			$('.cf-top-hover-mobile').toggleClass("cf-top");
+		console.log("begin fade effect");
+	   lumiIterationsFadeInterval = setInterval(function(){ 
+			$('.cf-control').toggleClass("cf-top-hover-mobile");
+			$('.cf-control').toggleClass("cf-top");
 		}, 1500);
+	} else {
+		clearInterval(lumiIterationsFadeInterval);
 	}
+
+	
 
 	// Black Background Code TODO: add 404, make this if any page but home/side-projects/work then
 	if (top.location.pathname === baseURL + '/about/' || top.location.pathname === baseURL + '/contact/' || top.location.pathname === baseURL + '/404.html') {

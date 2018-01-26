@@ -472,7 +472,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-time-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-time-xxl.png"
 				alt="Time Iterations"
@@ -488,7 +488,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-stock-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-stock-xxl.png"
 				alt="Stock Ticker Iterations"
@@ -504,7 +504,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-mail-two-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-mail-two-xxl.png"
 				alt="Mail Feed Iterations"
@@ -520,7 +520,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-npr-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-npr-xxl.png"
 				alt="NPR Radio Iterations"
@@ -536,7 +536,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-calendar-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-calendar-xxl.png"
 				alt="Calendar Iterations"
@@ -552,7 +552,7 @@ thumbnail: "ases-home-tile.jpg"
 				data-zoom-target="/images/lumi/lumi-timer-xxl.png"
 			>
 			<img 
-				class="img-fluid img-group-margin-btm cf-top"
+				class="img-fluid img-group-margin-btm cf-control cf-top"
 				id="zoom-default"
 				src="/images/lumi/lumi-timer-xxl.png"
 				alt="Timer Iterations"
