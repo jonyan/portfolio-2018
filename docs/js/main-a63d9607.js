@@ -6,6 +6,8 @@ $(window).on('load', function(){
 	// 	$('body').css("overflow-y", "scroll")
 	//     $('#body-container').removeClass('fade-out');
 	// });
+	// $("#loader").fadeOut("slow");
+	// $("#loader").css("display", "none");
 });
 
 const gridBreakpoints = {
@@ -52,6 +54,7 @@ var baseURL = "";
 
 $( document ).ready(function() {
 	$("#loader").fadeOut("slow");
+	$("#loader").css("display", "none");
 	$(function() {
 		$('body').css("overflow-y", "scroll")
 	    $('#body-container').removeClass('fade-out');
